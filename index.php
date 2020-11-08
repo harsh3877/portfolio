@@ -353,14 +353,16 @@
   </div>
 
   <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="vendor/jquery/jquery.min.js"></script>
-  <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+  <!-- <script type="text/javascript" src="vendor/jquery/jquery.min.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <!-- Plugin JavaScript -->
-  <script type="text/javascript" src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
+  <!-- <script type="text/javascript" src="vendor/jquery-easing/jquery.easing.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ==" crossorigin="anonymous"></script>
   <!-- Custom scripts for this template -->
-  <script type="text/javascript" src="js/resume.min.js"></script>
+  <script type="text/javascript" src="resume.min.js"></script>
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script type="text/javascript">   
