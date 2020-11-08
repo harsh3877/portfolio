@@ -317,7 +317,7 @@
 					
 					 <div data-aos="fade-right" data-aos-delay="400" class="col-4 col-md-2 col-lg-2 ml-auto text-center mb-5 mb-lg-0">
 
-                        <a data-toggle="tooltip" data-placement="top" title="Whatsapp"  type="button" onclick="window.open('https://wa.me/9665654326?text=Hi!, I am sending this message from your portfolio.','newwindow','width=800,height=450');return false;" class="rot fa fa-whatsapp fa-3x mb-3 text-muted"></a>
+                        <a data-toggle="tooltip" data-placement="top" title="Whatsapp"  type="button" onclick="window.open('https://wa.me/+919665654326?text=Hi!, I am sending this message from your portfolio.','newwindow','width=800,height=450');return false;" class="rot fa fa-whatsapp fa-3x mb-3 text-muted"></a>
                        
                     </div>
 					
