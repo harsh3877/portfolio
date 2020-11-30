@@ -166,8 +166,8 @@
 	                            <i class="fa fa-4x fa-laptop text-primary mb-4"></i>
 								<h4 class="">Individual Projects</h4>
 								<a class="linkcontnent ml-3" href="https://seacamel.herokuapp.com/" data-aos="fade-right" data-aso-delay="800">Sea Camel</a><br>
-<!-- 								<a class="linkcontnent ml-3" href="http://coolgeek.tech/letterhelper/Website.php" data-aos="fade-right" data-aso-delay="800">Letter Helper</a><br>
-								<a class="linkcontnent ml-3" href="http://coolgeek.tech/dlmc/index.php" data-aos="fade-right" data-aso-delay="800">Distant Learning</a><br> -->
+								<a class="linkcontnent ml-3" href="" data-aos="fade-right" data-aso-delay="800">Letter Helper</a><br>
+								<a class="linkcontnent ml-3" href="" data-aos="fade-right" data-aso-delay="800">Distant Learning</a><br>
 	                        </div>
 	                    </div>
                     </div>
