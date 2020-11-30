@@ -168,6 +168,8 @@
 								<a class="linkcontnent ml-3" href="https://seacamel.herokuapp.com/" data-aos="fade-right" data-aso-delay="800">Sea Camel</a><br>
 								<a class="linkcontnent ml-3" href="#" data-aos="fade-right" data-aso-delay="800">Letter Helper</a><br>
 								<a class="linkcontnent ml-3" href="#" data-aos="fade-right" data-aso-delay="800">Distant Learning</a><br>
+								<a class="linkcontnent ml-3" href="https://sangampath.herokuapp.com/" data-aos="fade-right" data-aso-delay="800">Sangam Pathology</a><br>
+				    
 	                        </div>
 	                    </div>
                     </div>
