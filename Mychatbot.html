@@ -14,7 +14,9 @@
     border-radius: 5px;
 		}
 		.body{
-			background: #d2d2d2;
+			/*background: #d2d2d2;*/
+			background: rgb(2,0,36);
+			background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(0,128,128,1) 68%, rgba(0,212,255,1) 100%);
 			height: 400px;
 			max-height: 400px;
 			overflow-y: auto;
@@ -23,8 +25,9 @@
 		}
 		.outercontainer{
 			border-radius: 10px;
-			border: 1px solid black;
+			border: 1px solid #fff;
 			width: 40%;
+			box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.7);
 			 }
 
 		.container{
@@ -34,13 +37,22 @@
 			  align-items: center;
 			 }
 		.heading{
+			background-color: rgba(2,0,36,1);
+			color: #fff;
+			text-transform: capitalize;
 			border-top-right-radius: 10px;
 			border-top-left-radius: 10px;
 		}
 
+		.inmsg{
+			background-color: rgba(0,212,255,1);
+			border-bottom-right-radius: 10px;
+			border-bottom-left-radius: 10px;
+		}
+
 		.question{
-			background: red;
-			padding: 2px 3px;
+			background: #ff0038;
+			padding: 2px 5px;
 			margin-left: 5px;
 			border-radius: 10px;
 			display: inline-block;
@@ -52,9 +64,9 @@
 			margin-bottom: 5px !important; 
 		}
 		.answer{
-			background: black;
+			background: #ca2c92;
 			color: #fff;
-			padding: 2px 3px;
+			padding: 2px 5px;
 			border-radius: 10px;
 			display: inline-block;
 			float: right;
@@ -97,8 +109,8 @@
 <body>
 	<div class="container ">
 		<div class="outercontainer mt-5">
-			<div class="heading p-2 bg-primary">
-				<h5 class="">Welcome to my chatbot</h5>
+			<div class="heading p-2 text-center">
+				<h5 class="my-auto py-1">Welcome to my chatbot</h5>
 			</div>
 			<div class="body" id="body">
 				<div class="overlay text-center" id="overlay">
@@ -136,7 +148,7 @@ var num = 0;
 var inputBox = document.querySelector("#ans");
 var output = document.querySelector(".body");
 var p = document.createElement("P");
-	p.setAttribute("class","question mt-2");
+	p.setAttribute("class","question mt-2 py-auto");
   p.innerHTML = questions[num];
 output.appendChild(p);
 
@@ -232,10 +244,10 @@ function showResponse() {
     
 	typing();
 	inputBox.value="";
-	if(`${input}`=="yes" || `${input}`=="Yes"){
+	if(`${input}`=="yes" || `${input}`=="Yes" ){
 		++num;
     me="Fantastic!!";
-	}else if(`${input}`=="no" || `${input}`=="No"){
+	}else if(`${input}`=="no" || `${input}`=="No" ){
 		num=num+2;
     me="Oops!!";
 	}else{
@@ -308,7 +320,7 @@ function changeQuestion() {
     output.innerHTML+="<br>";
 
     var p = document.createElement("P");
-     p.setAttribute("class","answer");
+     p.setAttribute("class","answer py-auto");
 	  p.innerHTML = res;
 	  output.appendChild(p);
 
