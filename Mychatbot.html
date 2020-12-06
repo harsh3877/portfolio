@@ -232,10 +232,10 @@ function showResponse() {
     
 	typing();
 	inputBox.value="";
-	if(`${input}`=="yes"){
+	if(`${input}`=="yes" || `${input}`=="Yes"){
 		++num;
     me="Fantastic!!";
-	}else if(`${input}`=="no"){
+	}else if(`${input}`=="no" || `${input}`=="No"){
 		num=num+2;
     me="Oops!!";
 	}else{
