@@ -1,6 +1,5 @@
 #sideNav{
 position:sticky !important;
-
 }
 
 
@@ -22,10 +21,7 @@ padding-left:0 !important
 	box-shadow: 0px 0px 30px;
 	}	
 
-	.footer{
-		border-top-right-radius: 20px;
-	    border-top-left-radius: 20px;
-	}
+	
 }
 
 .rot
