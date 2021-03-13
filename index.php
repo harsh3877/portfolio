@@ -115,13 +115,13 @@
 		</div>
 
 		<div class="col-12 col-md-12 col-lg-10 p-0">
-		
-			<section class="page-section bg-primary" id="about">
+			<div class="about">
+			<section class="page-section bg-dark" id="about">
 				<div class="container-fluid">
 					<div class="row ">
 						<div class="">
 							<h2 class=" text-light mt-0 text-center"data-aos="fade-up">I've got what you need!</h2>
-							<hr class="divider light my-4" />
+							<hr class="divider dark my-4" />
 							<div class="text-white-50 mb-4 text-left px-5">
 								<ul type="none" class="text-white myintro">
 									<li >I was the kid who didn’t break apart my Rubik’s cube so that I could get all the colors lined up—I was the 
@@ -143,7 +143,9 @@
 					</div>
 				</div>
 			</section>
+		</div>
         <!-- Services-->
+        <div class="services bg-dark">
         <section class="page-section" id="services">
             <div class="container">
                 <h2 class="text-center mt-0 " data-aos="fade-up">At Your Service</h2>
@@ -165,11 +167,9 @@
                     	    <div class="zoom py-5 h-100">
 	                            <i class="fa fa-4x fa-laptop text-primary mb-4"></i>
 								<h4 class="">Individual Projects</h4>
-								<a class="linkcontnent ml-3" href="https://seacamel.herokuapp.com/" data-aos="fade-right" data-aso-delay="800">Sea Camel</a><br>
-								<a class="linkcontnent ml-3" href="#" data-aos="fade-right" data-aso-delay="800">Letter Helper</a><br>
-								<a class="linkcontnent ml-3" href="#" data-aos="fade-right" data-aso-delay="800">Distant Learning</a><br>
-								<a class="linkcontnent ml-3" href="https://sangampath.herokuapp.com/" data-aos="fade-right" data-aso-delay="800">Sangam Pathology</a><br>
-				    
+								<a class="linkcontnent ml-3" href="http://seacamel.epizy.com/" data-aos="fade-right" data-aso-delay="800">Sea Camel</a><br>
+								<a class="linkcontnent ml-3" href="http://coolgeek.tech/letterhelper/Website.php" data-aos="fade-right" data-aso-delay="800">Letter Helper</a><br>
+								<a class="linkcontnent ml-3" href="http://coolgeek.tech/dlmc/index.php" data-aos="fade-right" data-aso-delay="800">Distant Learning</a><br>
 	                        </div>
 	                    </div>
                     </div>
@@ -193,38 +193,40 @@
                 </div>
             
         </section>
+    	</div>
         <!-- client relations -->
-        <section class="page-section pb-5 pt-0" id="clientrelation">
+        <div class="clientrelation">
+        <section class="page-section bg-dark" id="clientrelation">
             <div class="container" style="overflow-x:hidden; ">
-                <h2 class="text-center mt-0 " data-aos="fade-up">Client Relations</h2>
+                <h2 class="text-center text-light mt-0 " data-aos="fade-up">Client Relations</h2>
                 <hr class="divider dark my-4" />
                 <div class="row m-0 pb-4">
                     <div data-aos="fade-right" data-aos-delay="100" class="col-lg-6 col-sm-12 col-md-6 text-center  px-5 mt-4 parentclient">
                         <div class="clientcontainer p-4">
-                    	<h5 class="text-left">Dina Udupa</h5>
+                    	<h5 class="text-left text-primary">Dina Udupa</h5>
                         	<img src="image/projectimages/dinaudupa.png">
-                    	<h5 class="text-left mt-3">Description</h5>
+                    	<h5 class="text-left text-primary mt-3">Description</h5>
                     	<ul class="text-left">
-							<li ><span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="200"></span> London, United Kingdom</li>
-							<li><span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="300"></span> Made an end to end E-commerce website for the client that sells Indian ethnic wears for UK audience using WordPress</li>
-							<li><span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="400"></span> Integrated PayPal payment gateway and applied custom logic discounts, sales and shipping charges for various countries</li>
-							<li><span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="500"></span> Exposure: Wordpress, HTML, CSS</li>
-							<li><span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="600"></span> <a href="https://www.dinaudupa.com/">dinaudupa.com</a></li>
+							<li class="text-light"><span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="200"></span> London, United Kingdom</li>
+							<li class="text-light"><span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="300"></span> Made an end to end E-commerce website for the client that sells Indian ethnic wears for UK audience using WordPress</li>
+							<li class="text-light"><span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="400"></span> Integrated PayPal payment gateway and have applied custom logic discounts, sales and shipping charges for various countries</li>
+							<li class="text-light"><span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="500"></span> Exposure: Wordpress, HTML, CSS</li>
+							<li class="text-light"><span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="600"></span> <a href="https://www.dinaudupa.com/">dinaudupa.com</a></li>
 						</ul>
                         </div>
                     </div>
                     
                     <div data-aos="fade-left" data-aos-delay="100" class="col-lg-6 col-sm-12 col-md-6 text-center px-5 mt-4 parentclient">
                         <div class="clientcontainer p-4">
-                    	<h5  class="text-left">Effort To Success</h5>
+                    	<h5  class="text-left text-primary">Effort To Success</h5>
                         	<img src="image/projectimages/ets.png">
-                    	<h5  class="text-left mt-3">Description</h5>
+                    	<h5  class="text-left mt-3 text-primary">Description</h5>
                  		<ul  class="text-left">
-							<li> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="200"></span> Delhi, India</li>
-							<li> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="300"></span> A learning Management System (LMS) was made, that conducts online classes, schedules lectures, and conducts online test and created non tech friendly admin panel for faculties</li>
-							<li> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="400"></span> Integrated payment gateway using Razor Pay</li>
-							<li> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="500"></span> Exposure: WebRTC, Nodejs, Core PHP, HTML, CSS, Bootstrap</li>
-							<li> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="600"></span> <a href="https://efforttosuccess.in/ETS/">efforttosuccess.in/ETS</a></li>
+							<li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="200"></span> Delhi, India</li>
+							<li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="300"></span> A learning Management System (LMS) was made, that conducts online classes, schedules lectures, and conducts online test and created non tech friendly admin panel for faculties</li>
+							<li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="400"></span> Integrated payment gateway using Razor Pay</li>
+							<li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="500"></span> Exposure: WebRTC, Nodejs, Core PHP, HTML, CSS, Bootstrap</li>
+							<li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="600"></span> <a href="https://efforttosuccess.in/ETS/">efforttosuccess.in/ETS</a></li>
 						</ul>
                         </div>
                     </div>
@@ -232,8 +234,10 @@
                 </div>
             
         </section>
+    </div>
         <!-- internship-->
-        <section id="internship" class="py-5">
+        <div class="bg-dark">
+        <section id="internship" class="page-section">
             <div class="container-fluid p-0">
 			<h2 class="text-center mt-0 " data-aos="fade-up">Internship Projects</h2>
                 <hr class="divider dark my-4" />
@@ -297,15 +301,16 @@
                 </div>
             </div>
         </section>
-       
+       </div>
         <!-- Contact-->
-        <section class="page-section" id="contact">
-            <div class="container">
+        <div class="footercontact">
+        <section class="page-section bg-dark" id="contact">
+            <div class="container-fluid pt-3">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 text-center">
-                        <h2 class="mt-0" data-aos="fade-up">Get In Touch!</h2>
-                        <hr class="divider my-4" />
-                        <p class="text-muted mb-5">Ready to start your next project with me? Give me a call or send me an email and I will get back to you in quick time!</p>
+                        <h2 class="mt-0 text-light" data-aos="fade-up">Get In Touch!</h2>
+                        <hr class="divider dark my-4" />
+                        <p class="text-light mb-5">Ready to start your next project with me? Give me a call or send me an email and I will get back to you in quick time!</p>
                     </div>
                 </div>
                 <div class="row">
@@ -344,21 +349,22 @@
                 </div>
             </div>
         </section>
+    </div>
         <!-- Footer-->
         
         
 		</div>
 	</div>
 <div>
-  
-  <div class="container-fluid p-0">
+ 
+  <div class="container-fluid p-0 bg-dark">
  
 <footer class="py-5 footer bg-dark">
     <div class="container">
     	<div class="small text-center text-muted">Copyright © <?php echo date('Y'); ?> - Harsh Sharma</div>
     </div>
 </footer>
-      
+     
         
   </div>
 
@@ -377,7 +383,7 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script type="text/javascript">   
 		AOS.init({
-			offset:50,
+			offset:30,
 			duration:1000,
 		}); 
 		
@@ -391,6 +397,10 @@
 			document.getElementById('loadercontainer').style.display="none";	
 		}, 2000);
 	}());
+
+	$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
 </script>
 </body>
 
