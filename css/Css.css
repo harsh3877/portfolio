@@ -96,7 +96,7 @@ a.btnlink
 
 .clientcontainer{
 	border-radius: 10px;
-box-shadow:  5px 5px 10px #d2d2d2, -5px -5px 20px #f2f2f2; 
+box-shadow:  5px 5px 10px rgb(0 0 0 / 70%), -5px -5px 20px rgb(0 0 0 / 30%); 
 transition: .4s;
 cursor: pointer;
 }
@@ -104,7 +104,7 @@ cursor: pointer;
 
 .clientcontainer:hover{
 
-box-shadow:  10px 10px 10px #d2d2d2, -10px -10px 20px #f2f2f2; 
+box-shadow:  7px 7px 10px rgb(0 0 0 / 70%), -7px -7px 20px rgb(0 0 0 / 30%); 
 }
 .clientcontainer img{
 	max-width: 100%;
@@ -143,7 +143,7 @@ box-shadow:  10px 10px 10px #d2d2d2, -10px -10px 20px #f2f2f2;
 	box-shadow: none;
 }
 
-.contact a{
+.contact a, .footercontact a{
 	text-decoration: none;
 	text-transform: capitalize;
 }
@@ -160,13 +160,20 @@ box-shadow:  10px 10px 10px #d2d2d2, -10px -10px 20px #f2f2f2;
 		.contact{
 			position: absolute;
 			top: 100px;
-		}	
+		}
+
+		.contact span{
+			color: #fff !important;
+		}
+
 		.parentclient{
 		padding:20px !important;
 	}
-	.contact span{
-/* 			color: #fff !important; */
-		}
+
+	.page-section{
+		padding:4rem 0 !important;
+	}
+
 	
 }
 
@@ -189,12 +196,19 @@ box-shadow:  10px 10px 10px #d2d2d2, -10px -10px 20px #f2f2f2;
 	.socialpresence{
 		margin:auto 20px;
 	}
+	.page-section{
+		padding:4rem 0 !important;
+	}
+
 
 }
 
 @media only screen and (max-width: 575px) {
 	.hiddencontainer{
 		display: none;
+	}
+	.page-section{
+		padding:2rem 0 !important;
 	}
 }
 
@@ -205,4 +219,31 @@ box-shadow:  10px 10px 10px #d2d2d2, -10px -10px 20px #f2f2f2;
     background: #fff;
     z-index: 100000;
     top: 0;
+}
+
+#about{
+	border-bottom-right-radius: 100px;
+}
+
+.about{
+	
+}
+
+#services, #internship{
+	background-color: #fff;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+#clientrelation{
+	border-top-right-radius: 100px;
+	border-bottom-right-radius: 100px;
+}
+
+.clientrelation, .footercontact{
+	background-color: #fff;
+}
+
+#contact{
+	border-top-right-radius: 100px;
 }
