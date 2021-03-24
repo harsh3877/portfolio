@@ -120,7 +120,7 @@
 				<div class="container-fluid">
 					<div class="row ">
 						<div class="">
-							<h2 class=" text-light mt-0 text-center"data-aos="fade-up">I've got what you need!</h2>
+							<div data-tilt data-tilt-full-page-listening><h2 class=" text-light mt-0 text-center"data-aos="fade-up">I've got what you need!</h2></div>
 							<hr class="divider dark my-4" />
 							<div class="text-white-50 mb-4 text-left px-5">
 								<ul type="none" class="text-white myintro">
@@ -148,10 +148,11 @@
         <div class="services bg-dark">
         <section class="page-section" id="services">
             <div class="container">
-                <h2 class="text-center mt-0 " data-aos="fade-up">At Your Service</h2>
+                <div data-tilt data-tilt-full-page-listening><h2 class="text-center mt-0 " data-aos="fade-up">At Your Service</h2></div>
                 <hr class="divider dark my-4" />
                 <div class="row m-0">
-                    <div class="col-lg-4 col-md-4 col-sm-12 text-center ">
+                    <div class="col-lg-4 col-md-4 col-sm-12 text-center my-3">
+                    	<span class="text-primary fa fa-bookmark bookmark fa-2x"></span>
                     	<div class="socialpresence">
 	                        <div class="zoom py-5 h-100">
 	                            <i class="fa fa-4x fa-diamond text-primary mb-4"></i>
@@ -162,7 +163,8 @@
 	                    </div>
                     </div>
                     
-                    <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                    <div class="col-lg-4 col-md-4 col-sm-12 text-center my-3">
+                    	<span class="text-primary fa fa-bookmark bookmark fa-2x"></span>
                     	<div class="socialpresence">
                     	    <div class="zoom py-5 h-100">
 	                            <i class="fa fa-4x fa-laptop text-primary mb-4"></i>
@@ -174,7 +176,9 @@
 	                    </div>
                     </div>
 					
-					<div class="col-lg-4 col-md-4 col-sm-12 text-center socialpresence">
+					<div class="col-lg-4 col-md-4 col-sm-12 text-center  my-3">
+						<span class="text-primary fa fa-bookmark bookmark fa-2x"></span>
+						<div class="socialpresence">
                         <div class="zoom py-5 h-100">
 							<i class="fa fa-4x fa-globe text-primary mb-4"></i>
 							<h4 class="">My Social Presence</h4>
@@ -186,7 +190,7 @@
 							<a data-aos="fade-right" data-aso-delay="1000" class="linkcontent" onclick="window.open('https://wa.me/9665654326?text=Hi!, I am sending this message from your internship.','newwindow','width=800,height=450');return false;" href="">Whatsapp</a>
 								
 							</div>
-							
+							</div>
 							
                         </div>
                     </div>
@@ -198,7 +202,7 @@
         <div class="clientrelation">
         <section class="page-section bg-dark" id="clientrelation">
             <div class="container" style="overflow-x:hidden; ">
-                <h2 class="text-center text-light mt-0 " data-aos="fade-up">Client Relations</h2>
+                <div data-tilt data-tilt-full-page-listening><h2 class="text-center text-light mt-0 " data-aos="fade-up">Client Relations</h2></div>
                 <hr class="divider dark my-4" />
                 <div class="row m-0 pb-4">
                     <div data-aos="fade-right" data-aos-delay="100" class="col-lg-6 col-sm-12 col-md-6 text-center  px-5 mt-4 parentclient">
@@ -236,10 +240,10 @@
         </section>
     </div>
         <!-- internship-->
-        <div class="bg-dark">
+        <div class="bg-dark" >
         <section id="internship" class="page-section">
             <div class="container-fluid p-0">
-			<h2 class="text-center mt-0 " data-aos="fade-up">Internship Projects</h2>
+			<div data-tilt data-tilt-full-page-listening><h2 class="text-center mt-0 " data-aos="fade-up" >Internship Projects</h2></div>
                 <hr class="divider dark my-4" />
                 <div class="row m-0 px-5">
                     <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
@@ -308,7 +312,7 @@
             <div class="container-fluid pt-3">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 text-center">
-                        <h2 class="mt-0 text-light" data-aos="fade-up">Get In Touch!</h2>
+                       <div data-tilt data-tilt-full-page-listening> <h2 class="mt-0 text-light" data-aos="fade-up">Get In Touch!</h2></div>
                         <hr class="divider dark my-4" />
                         <p class="text-light mb-5">Ready to start your next project with me? Give me a call or send me an email and I will get back to you in quick time!</p>
                     </div>
@@ -379,7 +383,15 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ==" crossorigin="anonymous"></script>
   <!-- Custom scripts for this template -->
   <script type="text/javascript" src="resume.min.js"></script>
+  <script type="text/javascript" src="js/vanilatilt.js"></script>
+<script type="text/javascript">
+	VanillaTilt.init(document.querySelectorAll(".clientcontainer"), {
+		max: 10,
+		speed: 100,
+		gyroscope: true
 
+	});
+</script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script type="text/javascript">   
 		AOS.init({
