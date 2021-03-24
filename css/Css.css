@@ -34,14 +34,16 @@ body{
 }
 
 .socialpresence{
-	transition: .4s;
-	border-radius:10px;
-	border-bottom: 2px solid #Fff;
-	border-right: 2px solid #Fff;
-	border-top: 1px solid #Fff;
-	border-left: 1px solid #Fff;
-	height: 100%;
-	overflow: hidden;
+	    transition: .4s;
+    border-radius: 10px;
+    
+    border-top: 1px solid rgba(225,225,225,0.5);
+    border-left: 1px solid rgba(225,225,225,0.5);
+    height: 100%;
+    overflow: hidden;
+    background: rgba(225,225,225,0.1);
+    backdrop-filter: blur(0px);
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 15%);
 }
 
 .socialpresence a:hover
@@ -50,12 +52,8 @@ body{
 	text-shadow:0px 5px 10px #000;
 }
 
-.socialpresence:hover
-{
-	border-bottom: 2px solid #F4623A;
-	border-right: 2px solid #F4623A;
-	border-top: 1px solid #F4623A;
-	border-left: 1px solid #F4623A;
+.socialpresence:hover {
+	backdrop-filter: blur(3px);
 }
 
 .zoom:hover{
@@ -99,6 +97,8 @@ a.btnlink
 box-shadow:  5px 5px 10px rgb(0 0 0 / 70%), -5px -5px 20px rgb(0 0 0 / 30%); 
 transition: .4s;
 cursor: pointer;
+transform-style: preserve-3d;
+transform: perspective(1000px);
 }
 
 
@@ -111,6 +111,7 @@ box-shadow:  7px 7px 10px rgb(0 0 0 / 70%), -7px -7px 20px rgb(0 0 0 / 30%);
 	border:1px solid #d2d2d2;
 	border-radius: 5px;
 	padding:1px;
+	transform: translateZ(20px);
 }
 
 .clientcontainer ul{
@@ -173,7 +174,6 @@ box-shadow:  7px 7px 10px rgb(0 0 0 / 70%), -7px -7px 20px rgb(0 0 0 / 30%);
 	.page-section{
 		padding:4rem 0 !important;
 	}
-
 	
 }
 
@@ -247,3 +247,12 @@ box-shadow:  7px 7px 10px rgb(0 0 0 / 70%), -7px -7px 20px rgb(0 0 0 / 30%);
 #contact{
 	border-top-right-radius: 100px;
 }
+
+.bookmark{
+	
+	position: absolute;
+	top: 0;
+	right: 22px;
+	
+}
+
