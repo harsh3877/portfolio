@@ -169,9 +169,9 @@
                     	    <div class="zoom py-5 h-100">
 	                            <i class="fa fa-4x fa-laptop text-primary mb-4"></i>
 								<h4 class="">Individual Projects</h4>
-								<a class="linkcontnent ml-3" href="http://seacamel.epizy.com/" data-aos="fade-right" data-aso-delay="800">Sea Camel</a><br>
-								<a class="linkcontnent ml-3" href="http://coolgeek.tech/letterhelper/Website.php" data-aos="fade-right" data-aso-delay="800">Letter Helper</a><br>
-								<a class="linkcontnent ml-3" href="http://coolgeek.tech/dlmc/index.php" data-aos="fade-right" data-aso-delay="800">Distant Learning</a><br>
+								<a class="linkcontnent ml-3" href="https://seacamel.herokuapp.com/" data-aos="fade-right" data-aso-delay="800">Sea Camel</a><br>
+								<a class="linkcontnent ml-3" href="https://sangampath.herokuapp.com/" data-aos="fade-right" data-aso-delay="800">Sangam Pathology</a><br>
+								
 	                        </div>
 	                    </div>
                     </div>
@@ -181,14 +181,11 @@
 						<div class="socialpresence">
                         <div class="zoom py-5 h-100">
 							<i class="fa fa-4x fa-globe text-primary mb-4"></i>
-							<h4 class="">My Social Presence</h4>
+							<h4 class="">Personal Projects</h4>
 							
-								<a class="linkcontnent" data-aos="fade-right" data-aso-delay="1000" href="https://www.linkedin.com/in/harsh-sharma-b3a465172/" target="_blank">LinkedIn</a><br>
-							<a class="linkcontent"href="https://www.facebook.com/harsh.sharma.3877" data-aos="fade-right" data-aso-delay="1000" target="_blank">Facebook</a><br>
-								
-								<a class="linkcontent" href="https://www.instagram.com/mr.harsh_sharma_11/" data-aos="fade-right" data-aso-delay="1000" target="_blank">Instagram</a><br>	
-							<a data-aos="fade-right" data-aso-delay="1000" class="linkcontent" onclick="window.open('https://wa.me/9665654326?text=Hi!, I am sending this message from your internship.','newwindow','width=800,height=450');return false;" href="">Whatsapp</a>
-								
+								<a class="linkcontnent" data-aos="fade-right" data-aso-delay="1000" href="https://youtu.be/tbxf5jxL-WA" target="_blank">Chatbot</a><br>
+								<a class="linkcontent" href="https://youtu.be/JXMVUHjqYXA" data-aos="fade-right" data-aso-delay="1000" target="_blank">Notifier</a><br>
+														
 							</div>
 							</div>
 							
@@ -328,11 +325,11 @@
                         <a data-toggle="tooltip" data-placement="top" title="Gmail" type="button" href="" onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=harshsharma3877@gmail.com','newwindow','width=800,height=450');return false;" class="rot fa fa-envelope fa-3x mb-3 text-muted" ></a>
                         
                     </div>
-					 <div  data-aos="fade-right" data-aos-delay="300"  class="col-4 col-md-2 col-lg-2 ml-auto text-center mb-5 mb-lg-0">
+					<!--  <div  data-aos="fade-right" data-aos-delay="300"  class="col-4 col-md-2 col-lg-2 ml-auto text-center mb-5 mb-lg-0">
 
                         <a data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank" href="https://www.facebook.com/harsh.sharma.3877" class="rot fa fa-facebook-square fa-3x mb-3 text-muted"></a>
                        
-                    </div>
+                    </div> -->
 					
 					 <div data-aos="fade-right" data-aos-delay="400" class="col-4 col-md-2 col-lg-2 ml-auto text-center mb-5 mb-lg-0">
 
@@ -348,6 +345,11 @@
 					<div data-aos="fade-right" data-aos-delay="600" class="col-4 col-md-2 col-lg-2 ml-auto text-center mb-5 mb-lg-0">
 
                         <a data-toggle="tooltip" data-placement="top" title="Instagram" href="https://www.instagram.com/mr.harsh_sharma_11/" target="_blank"  class="rot fa fa-instagram fa-3x mb-3 text-muted"></a>
+                      
+                    </div>
+                    <div data-aos="fade-right" data-aos-delay="700" class="col-4 col-md-2 col-lg-2 ml-auto text-center mb-5 mb-lg-0">
+
+                        <a data-toggle="tooltip" data-placement="top" title="Youtube" href="https://www.instagram.com/mr.harsh_sharma_11/" target="_blank"  class="rot fa fa-youtube-play fa-3x mb-3 text-muted"></a>
                       
                     </div>
                 </div>
