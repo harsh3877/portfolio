@@ -180,7 +180,7 @@
 						<span class="text-primary fa fa-bookmark bookmark fa-2x"></span>
 						<div class="socialpresence">
                         <div class="zoom py-5 h-100">
-							<i class="fa fa-4x fa-globe text-primary mb-4"></i>
+							<i class="fa fa-4x fa-briefcase text-primary mb-4"></i>
 							<h4 class="">Personal Projects</h4>
 							
 								<a class="linkcontnent" data-aos="fade-right" data-aso-delay="1000" href="https://youtu.be/tbxf5jxL-WA" target="_blank">Chatbot</a><br>
