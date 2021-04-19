@@ -202,7 +202,7 @@
                 <div data-tilt data-tilt-full-page-listening><h2 class="text-center text-light mt-0 " data-aos="fade-up">Client Relations</h2></div>
                 <hr class="divider dark my-4" />
                 <div class="row m-0 pb-4">
-                    <div data-aos="fade-right" data-aos-delay="100" class="col-lg-6 col-sm-12 col-md-6 text-center  px-5 mt-4 parentclient">
+                   <!--  <div data-aos="fade-right" data-aos-delay="100" class="col-lg-6 col-sm-12 col-md-6 text-center  px-5 mt-4 parentclient">
                         <div class="clientcontainer p-4">
                     	<h5 class="text-left text-primary">Dina Udupa</h5>
                         	<img src="image/projectimages/dinaudupa.png">
@@ -215,20 +215,28 @@
 							<li class="text-light"><span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="600"></span> <a href="https://www.dinaudupa.com/">dinaudupa.com</a></li>
 						</ul>
                         </div>
-                    </div>
+                    </div> -->
                     
-                    <div data-aos="fade-left" data-aos-delay="100" class="col-lg-6 col-sm-12 col-md-6 text-center px-5 mt-4 parentclient">
+                    <div data-aos="fade-left" data-aos-delay="100" class="col-lg-12 col-sm-12 col-md-12 text-center px-5 mt-4 parentclient">
                         <div class="clientcontainer p-4">
-                    	<h5  class="text-left text-primary">Effort To Success</h5>
-                        	<img src="image/projectimages/ets.png">
-                    	<h5  class="text-left mt-3 text-primary">Description</h5>
-                 		<ul  class="text-left">
-							<li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="200"></span> Delhi, India</li>
-							<li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="300"></span> A learning Management System (LMS) was made, that conducts online classes, schedules lectures, and conducts online test and created non tech friendly admin panel for faculties</li>
-							<li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="400"></span> Integrated payment gateway using Razor Pay</li>
-							<li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="500"></span> Exposure: WebRTC, Nodejs, Core PHP, HTML, CSS, Bootstrap</li>
-							<li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="600"></span> <a href="https://efforttosuccess.in/ETS/">efforttosuccess.in/ETS</a></li>
-						</ul>
+                        <div class="row m-0">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <h5  class="text-left text-primary">Effort To Success</h5>
+                                <img src="image/projectimages/ets.png" class="">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <h5  class="text-left text-primary description-heading">Description</h5>
+                                <ul  class="text-left">
+                                    <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="200"></span> Delhi, India</li>
+                                    <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="300"></span> A learning Management System (LMS) was made, that conducts online classes, schedules lectures, and conducts online test and created non tech friendly admin panel for faculties</li>
+                                    <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="400"></span> Integrated payment gateway using Razor Pay</li>
+                                    <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="500"></span> Exposure: WebRTC, Nodejs, Core PHP, HTML, CSS, Bootstrap</li>
+                                    <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="600"></span> <a href="https://efforttosuccess.in/ETS/">efforttosuccess.in/ETS</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    	
+                    	
                         </div>
                     </div>
                 </div>
@@ -349,7 +357,7 @@
                     </div>
                     <div data-aos="fade-right" data-aos-delay="700" class="col-4 col-md-2 col-lg-2 ml-auto text-center mb-5 mb-lg-0">
 
-                        <a data-toggle="tooltip" data-placement="top" title="Youtube" href="https://www.youtube.com/channel/UCSTjAN9R_E1FW8PFSC9mu5g/videos" target="_blank"  class="rot fa fa-youtube-play fa-3x mb-3 text-muted"></a>
+                        <a data-toggle="tooltip" data-placement="top" title="Youtube" href="https://www.instagram.com/mr.harsh_sharma_11/" target="_blank"  class="rot fa fa-youtube-play fa-3x mb-3 text-muted"></a>
                       
                     </div>
                 </div>
