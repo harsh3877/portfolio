@@ -347,7 +347,7 @@
 					
 					 <div data-aos="fade-right" data-aos-delay="500" class="col-4 col-md-2 col-lg-2 ml-auto text-center mb-5 mb-lg-0">
 
-                        <a data-toggle="tooltip" data-placement="top" title="LinkedIn" href="https://www.linkedin.com/in/harsh-sharma-b3a465172/" target="_blank" class="rot fa fa-linkedin-square fa-3x mb-3 text-muted"></a>
+                        <a data-toggle="tooltip" data-placement="top" title="LinkedIn" href="www.linkedin.com/in/harshsharma3877" target="_blank" class="rot fa fa-linkedin-square fa-3x mb-3 text-muted"></a>
                       
                     </div>
 					<div data-aos="fade-right" data-aos-delay="600" class="col-4 col-md-2 col-lg-2 ml-auto text-center mb-5 mb-lg-0">
