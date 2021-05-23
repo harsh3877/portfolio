@@ -357,7 +357,7 @@
                     </div>
                     <div data-aos="fade-right" data-aos-delay="700" class="col-4 col-md-2 col-lg-2 ml-auto text-center mb-5 mb-lg-0">
 
-                        <a data-toggle="tooltip" data-placement="top" title="Youtube" href="https://www.instagram.com/mr.harsh_sharma_11/" target="_blank"  class="rot fa fa-youtube-play fa-3x mb-3 text-muted"></a>
+                        <a data-toggle="tooltip" data-placement="top" title="Youtube" href="https://www.youtube.com/channel/UCSTjAN9R_E1FW8PFSC9mu5g" target="_blank"  class="rot fa fa-youtube-play fa-3x mb-3 text-muted"></a>
                       
                     </div>
                 </div>
