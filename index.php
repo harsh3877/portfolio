@@ -8,7 +8,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
+  <style type="text/css">
+      @keyframes load {
+    0%{
+        opacity: 0.08;
+/*         font-size: 10px; */
+/*              font-weight: 400; */
+                filter: blur(5px);
+                letter-spacing: 3px;
+        }
+    100%{
+/*         opacity: 1; */
+/*         font-size: 12px; */
+/*              font-weight:600; */
+/*              filter: blur(0); */
+        }
+}
 
+#counterline{
+      background: #f60d54; 
+      border: none;
+     height: 1px;
+        margin-left: 0;
+}
+#animate {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    margin: auto;
+    width: 172px;
+    animation:load 1.2s ease-in-out;
+    animation-direction: alternate;
+    text-shadow: 0 0 1px white;
+    font-family: ui-rounded;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+#page-top{
+
+}
+.counter{
+        position: absolute;
+}
+  </style>
   <title>Harsh Sharma</title>
 
   <!-- Bootstrap core CSS -->
@@ -347,7 +391,7 @@
 					
 					 <div data-aos="fade-right" data-aos-delay="500" class="col-4 col-md-2 col-lg-2 ml-auto text-center mb-5 mb-lg-0">
 
-                        <a data-toggle="tooltip" data-placement="top" title="LinkedIn" href="https://www.linkedin.com/in/harshsharma3877" target="_blank" class="rot fa fa-linkedin-square fa-3x mb-3 text-muted"></a>
+                        <a data-toggle="tooltip" data-placement="top" title="LinkedIn" href="https://www.linkedin.com/in/harsh-sharma-b3a465172/" target="_blank" class="rot fa fa-linkedin-square fa-3x mb-3 text-muted"></a>
                       
                     </div>
 					<div data-aos="fade-right" data-aos-delay="600" class="col-4 col-md-2 col-lg-2 ml-auto text-center mb-5 mb-lg-0">
@@ -357,7 +401,7 @@
                     </div>
                     <div data-aos="fade-right" data-aos-delay="700" class="col-4 col-md-2 col-lg-2 ml-auto text-center mb-5 mb-lg-0">
 
-                        <a data-toggle="tooltip" data-placement="top" title="Youtube" href="https://www.youtube.com/channel/UCSTjAN9R_E1FW8PFSC9mu5g" target="_blank"  class="rot fa fa-youtube-play fa-3x mb-3 text-muted"></a>
+                        <a data-toggle="tooltip" data-placement="top" title="Youtube" href="https://www.instagram.com/mr.harsh_sharma_11/" target="_blank"  class="rot fa fa-youtube-play fa-3x mb-3 text-muted"></a>
                       
                     </div>
                 </div>
@@ -411,18 +455,38 @@
 		
 		</script>
 		<script type="text/javascript">
-	(function(){
-		document.getElementById('loadercontainer').style.display="block";	
-		document.getElementById('page-top').style.overflowY="hidden";
-		setTimeout(function(){ 
-			document.getElementById('page-top').style.overflowY="auto";
-			document.getElementById('loadercontainer').style.display="none";	
-		}, 2000);
-	}());
+        	(function(){
+                document.getElementById('loadercontainer').style.display="block";   
+                document.getElementById('page-top').style.overflowY="hidden";
+                 var counter = 0;
+              var c = 0;
+              var i = setInterval(function(){
+                  $(".counter h2 span").html(c);
+                  $("#counterline").css("width", c + "%");
+                 
+                counter++;
+                c++;
+                  
+                if(counter == 101) {
+                    clearInterval(i);
+                    document.getElementById('page-top').style.overflowY="auto";
+                   
+                    document.getElementById('loadercontainer').style.display="none";
+                  
+                }
+                 document.getElementById('loadercontainer').style.backdropFilter="blur("+(100-c)+"px)";
+                
+              }, 25);
+        	}());
 
-	$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
+        	$(function () {
+                $('[data-toggle="tooltip"]').tooltip()
+            })
+
+           
+  
+             
+          
 </script>
 </body>
 
