@@ -10083,22 +10083,23 @@ header.masthead h1 {
 #internship .container-fluid .internship-box, #internship .container-sm .internship-box, #internship .container-md .internship-box, #internship .container-lg .internship-box, #internship .container-xl .internship-box {
   position: relative;
   display: block;
+transform: rotate3d(1, 0, 0, -72deg ) rotate( 47deg );
 }
 #internship .container-fluid .internship-box .internship-box-caption, #internship .container-sm .internship-box .internship-box-caption, #internship .container-md .internship-box .internship-box-caption, #internship .container-lg .internship-box .internship-box-caption, #internship .container-xl .internship-box .internship-box-caption {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 40%;
   position: absolute;
-  bottom: 0;
+  bottom: -30px;
+  left:  5%;
   text-align: center;
   opacity: 0;
   color: #fff;
   background: rgba(244, 98, 58, 0.9);
   transition: opacity 0.25s ease;
-  text-align: center;
 }
 #internship .container-fluid .internship-box .internship-box-caption .project-category, #internship .container-sm .internship-box .internship-box-caption .project-category, #internship .container-md .internship-box .internship-box-caption .project-category, #internship .container-lg .internship-box .internship-box-caption .project-category, #internship .container-xl .internship-box .internship-box-caption .project-category {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";

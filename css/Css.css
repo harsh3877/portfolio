@@ -138,11 +138,19 @@ box-shadow:  7px 7px 10px rgb(0 0 0 / 70%), -7px -7px 20px rgb(0 0 0 / 30%);
 	border-radius: 5px;
 	padding:1px;
 	box-shadow:  5px 5px 10px rgb(100 100 100 / 70%), 5px 5px 20px rgb(100 100 100 / 30%);
-	transition: .4s; 
+	transition: .2s; 
  }
 
+.internship-box{
+	transition: .4s;
+}
+
 .internship-box:hover > img{
-	box-shadow: none;
+
+}
+.internship-box:hover
+{
+	transform: rotate(0deg )  rotate3d(0, 0, 0, -72deg ) !important;
 }
 
 .contact a, .footercontact a{
