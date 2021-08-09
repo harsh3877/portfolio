@@ -294,8 +294,8 @@
             <div class="container-fluid p-0">
 			<div data-tilt data-tilt-full-page-listening><h2 class="text-center mt-0 " data-aos="fade-up" >Internship Projects</h2></div>
                 <hr class="divider dark my-4" />
-                <div class="row m-0 px-5">
-                    <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
+                <div class="row m-0 px-5 pb-4">
+                    <div class="col-lg-4 col-md-4 col-sm-6 mt-5">
                         <a   class="internship-box" href="http://biozap.org/"
                             ><img class="img-fluid" src="image/projectimages/biozap.png" alt="" />
                             <div class="internship-box-caption">
@@ -304,7 +304,7 @@
                             </div></a
                         >
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
+                    <div class="col-lg-4 col-md-4 col-sm-6 mt-5">
                         <a class="internship-box" href="https://capslearning.org/"
                             ><img class="img-fluid" src="image/projectimages/caps.png" alt="" />
                             <div class="internship-box-caption">
@@ -313,7 +313,7 @@
                             </div></a
                         >
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
+                    <div class="col-lg-4 col-md-4 col-sm-6 mt-5">
                         <a  class="internship-box" href="https://synapsemindcare.com/"
                             ><img class="img-fluid" src="image/projectimages/synapse.png" alt="" />
                             <div class="internship-box-caption">
@@ -323,7 +323,7 @@
                         >
                     </div>
                     <div class="col-lg-2 col-md-2 col-sm-6 emptycontainer"></div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
+                    <div class="col-lg-4 col-md-4 col-sm-6 mt-5">
                         <a  class="internship-box" href="https://krishnamcomputers.com/"
                             ><img class="img-fluid" src="image/projectimages/krishnum.png" alt="" />
                             <div class="internship-box-caption">
@@ -332,7 +332,7 @@
                             </div></a
                         >
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
+                    <div class="col-lg-4 col-md-4 col-sm-6 mt-5">
                         <a class="internship-box" href="https://dgsharma.com/"
                             ><img class="img-fluid" src="image/projectimages/dgsharma.png" alt="" />
                             <div class="internship-box-caption p-3">
@@ -342,13 +342,13 @@
                         >
                     </div>
                     <div class="col-lg-2 col-md-2 col-sm-6 emptycontainer"></div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 mt-4 hiddencontainer">
+                    <div class="col-lg-4 col-md-4 col-sm-6 mt-5 hiddencontainer">
                         <a  class="internship-box" href="https://dgsharma.com/"
                             ><img class="img-fluid" src="image/comingsoon.jpg" alt="" />
-                            <!-- <div class="internship-box-caption p-3">
-                                <div class="project-category text-white-50">CA Classes</div>
-                                <div class="project-name">GD Sharma</div>
-                            </div> --></a
+                            <div class="internship-box-caption p-3">
+                                <div class="project-category text-white-50">Coming</div>
+                                <div class="project-name">Soon</div>
+                            </div></a
                         >
                     </div>
                 </div>
