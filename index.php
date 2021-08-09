@@ -225,7 +225,7 @@
 						<div class="socialpresence">
                         <div class="zoom py-5 h-100">
 							<i class="fa fa-4x fa-briefcase text-primary mb-4"></i>
-							<h4 class="">Personal Projects</h4>
+							<h4 id="PP">Personal Projects</h4>
 							
 								<a class="linkcontnent" data-aos="fade-right" data-aso-delay="1000" href="https://youtu.be/tbxf5jxL-WA" target="_blank">Chatbot</a><br>
 								<a class="linkcontent" href="https://youtu.be/JXMVUHjqYXA" data-aos="fade-right" data-aso-delay="1000" target="_blank">Notifier</a><br>
@@ -296,7 +296,7 @@
                 <hr class="divider dark my-4" />
                 <div class="row m-0 px-5">
                     <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
-                        <a  data-aos="flip-left" data-aos-delay="100" class="internship-box" href="http://biozap.org/"
+                        <a   class="internship-box" href="http://biozap.org/"
                             ><img class="img-fluid" src="image/projectimages/biozap.png" alt="" />
                             <div class="internship-box-caption">
                                 <div class="project-category text-white-50">Bio Fertilizer</div>
@@ -305,7 +305,7 @@
                         >
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
-                        <a data-aos="flip-left" data-aos-delay="300" class="internship-box" href="https://capslearning.org/"
+                        <a class="internship-box" href="https://capslearning.org/"
                             ><img class="img-fluid" src="image/projectimages/caps.png" alt="" />
                             <div class="internship-box-caption">
                                 <div class="project-category text-white-50">CA Coaching</div>
@@ -314,7 +314,7 @@
                         >
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
-                        <a data-aos="flip-left" data-aos-delay="400" class="internship-box" href="https://synapsemindcare.com/"
+                        <a  class="internship-box" href="https://synapsemindcare.com/"
                             ><img class="img-fluid" src="image/projectimages/synapse.png" alt="" />
                             <div class="internship-box-caption">
                                 <div class="project-category text-white-50">Mind Care Doctor</div>
@@ -324,7 +324,7 @@
                     </div>
                     <div class="col-lg-2 col-md-2 col-sm-6 emptycontainer"></div>
                     <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
-                        <a data-aos="flip-left" data-aos-delay="500" class="internship-box" href="https://krishnamcomputers.com/"
+                        <a  class="internship-box" href="https://krishnamcomputers.com/"
                             ><img class="img-fluid" src="image/projectimages/krishnum.png" alt="" />
                             <div class="internship-box-caption">
                                 <div class="project-category text-white-50">Rental Computers</div>
@@ -333,7 +333,7 @@
                         >
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
-                        <a data-aos="flip-left" data-aos-delay="600" class="internship-box" href="https://dgsharma.com/"
+                        <a class="internship-box" href="https://dgsharma.com/"
                             ><img class="img-fluid" src="image/projectimages/dgsharma.png" alt="" />
                             <div class="internship-box-caption p-3">
                                 <div class="project-category text-white-50">CA Classes</div>
@@ -343,7 +343,7 @@
                     </div>
                     <div class="col-lg-2 col-md-2 col-sm-6 emptycontainer"></div>
                     <div class="col-lg-4 col-md-4 col-sm-6 mt-4 hiddencontainer">
-                        <a data-aos="flip-left" data-aos-delay="600" class="internship-box" href="https://dgsharma.com/"
+                        <a  class="internship-box" href="https://dgsharma.com/"
                             ><img class="img-fluid" src="image/comingsoon.jpg" alt="" />
                             <!-- <div class="internship-box-caption p-3">
                                 <div class="project-category text-white-50">CA Classes</div>
@@ -401,7 +401,7 @@
                     </div>
                     <div data-aos="fade-right" data-aos-delay="700" class="col-4 col-md-2 col-lg-2 ml-auto text-center mb-5 mb-lg-0">
 
-                        <a data-toggle="tooltip" data-placement="top" title="Youtube" href="https://www.instagram.com/mr.harsh_sharma_11/" target="_blank"  class="rot fa fa-youtube-play fa-3x mb-3 text-muted"></a>
+                        <a data-toggle="tooltip" data-placement="top" title="Youtube" href="https://www.youtube.com/channel/UCSTjAN9R_E1FW8PFSC9mu5g" target="_blank"  class="rot fa fa-youtube-play fa-3x mb-3 text-muted"></a>
                       
                     </div>
                 </div>
@@ -482,11 +482,9 @@
         	$(function () {
                 $('[data-toggle="tooltip"]').tooltip()
             })
-
-           
-  
-             
-          
+</script>
+<script>
+console.log(window.innerHeight);
 </script>
 </body>
 
