@@ -216,6 +216,15 @@ box-shadow:  7px 7px 10px rgb(0 0 0 / 70%), -7px -7px 20px rgb(0 0 0 / 30%);
 	.bookmark{
 		right: 50px !important;
 	}
+
+	.internship-box
+	{
+		transform: rotate(0deg )  rotate3d(0, 0, 0, -72deg ) !important;
+	}
+
+	.internship-box-caption{
+		opacity: 1 !important;
+	}
 }
 
 @media only screen and (max-width: 575px) {
@@ -225,6 +234,8 @@ box-shadow:  7px 7px 10px rgb(0 0 0 / 70%), -7px -7px 20px rgb(0 0 0 / 30%);
 	.page-section{
 		padding:2rem 0 !important;
 	}
+
+
 
 }
 
