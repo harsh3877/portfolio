@@ -170,9 +170,9 @@
 								<ul type="none" class="text-white myintro">
 									<li >I was the kid who didn’t break apart my Rubik’s cube so that I could get all the colors lined up—I was the 
 									kid who solved it.</li><br>
-									<li >Hi, I am Harsh Sharma, senior undergraduate, G.S College, Nagpur, 
-									highly enthusiastic and passionate about coding and testing of Softwares and Websites, with several internships and projects 
-									in my arsenal, provided down below..</li><br>
+									<li >Hi, I am Harsh Sharma, software developer at <b><a href='https://www.techment.com/'>Techment technology</a></b> 
+									. Highly enthusiastic and passionate about coding and testing of Softwares and Websites, with several skills and projects 
+									in my arsenal, provided down below.</li><br>
 									<li >I am an analytical thinker, a keen problem solver, with a 
 									proactive attitude helping in disaster management in an increasingly technical world, behind every advancement 
 									is a team of multidisciplinary people.</li><br> 
@@ -199,10 +199,10 @@
                     	<span class="text-primary fa fa-bookmark bookmark fa-2x"></span>
                     	<div class="socialpresence">
 	                        <div class="zoom py-5 h-100">
-	                            <i class="fa fa-4x fa-diamond text-primary mb-4"></i>
+	                            <i class="fa fa-4x fa-link text-primary mb-4"></i>
 								<h4 class="">Interships At</h4>
-								<a class="linkcontnent ml-3" href="http://proup.in/" data-aos="fade-right" data-aso-delay="600">Pro-Up</a><br>
-								<a class="linkcontnent ml-3" href="https://buzo.in/" data-aos="fade-right" data-aso-delay="600">Buzo Media Services</a><br>
+								<a class="linkcontnent ml-3" href="http://proup.in/" data-aos="fade-right" data-aso-delay="600">3 Months - Pro-Up</a><br>
+								<a class="linkcontnent ml-3" href="https://buzo.in/" data-aos="fade-right" data-aso-delay="600">6 Months - Buzo Media Services</a><br>
 	                        </div>
 	                    </div>
                     </div>
@@ -212,10 +212,10 @@
                     	<div class="socialpresence">
                     	    <div class="zoom py-5 h-100">
 	                            <i class="fa fa-4x fa-laptop text-primary mb-4"></i>
-								<h4 class="">Individual Projects</h4>
-								<a class="linkcontnent ml-3" href="https://seacamel.herokuapp.com/" data-aos="fade-right" data-aso-delay="800">Sea Camel</a><br>
-								<a class="linkcontnent ml-3" href="https://sangampath.herokuapp.com/" data-aos="fade-right" data-aso-delay="800">Sangam Pathology</a><br>
-								
+								<h4 class="">Worked at</h4>
+								<a class="linkcontnent ml-3" href="https://urbanrun.in/" data-aos="fade-right" data-aso-delay="800">Urban Run</a><br>
+								<a class="linkcontnent ml-3" href="https://www.arenaitech.com/" data-aos="fade-right" data-aso-delay="800">Arena Itech</a><br>
+															
 	                        </div>
 	                    </div>
                     </div>
@@ -224,8 +224,8 @@
 						<span class="text-primary fa fa-bookmark bookmark fa-2x"></span>
 						<div class="socialpresence">
                         <div class="zoom py-5 h-100">
-							<i class="fa fa-4x fa-briefcase text-primary mb-4"></i>
-							<h4 id="PP">Personal Projects</h4>
+							<i class="fa fa-4x fa-youtube-play text-primary mb-4"></i>
+							<h4 id="PP">Project details</h4>
 							
 								<a class="linkcontnent" data-aos="fade-right" data-aso-delay="1000" href="https://youtu.be/tbxf5jxL-WA" target="_blank">Chatbot</a><br>
 								<a class="linkcontent" href="https://youtu.be/JXMVUHjqYXA" data-aos="fade-right" data-aso-delay="1000" target="_blank">Notifier</a><br>
@@ -246,30 +246,29 @@
                 <div data-tilt data-tilt-full-page-listening><h2 class="text-center text-light mt-0 " data-aos="fade-up">Client Relations</h2></div>
                 <hr class="divider dark my-4" />
                 <div class="row m-0 pb-4">
-                   <!--  <div data-aos="fade-right" data-aos-delay="100" class="col-lg-6 col-sm-12 col-md-6 text-center  px-5 mt-4 parentclient">
+                  <div data-aos="fade-right" data-aos-delay="100" class="col-lg-6 col-sm-12 col-md-6 text-center  px-5 mt-4 parentclient">
                         <div class="clientcontainer p-4">
-                    	<h5 class="text-left text-primary">Dina Udupa</h5>
-                        	<img src="image/projectimages/dinaudupa.png">
+                    	<h5 class="text-left text-primary">Sangam Pathology</h5>
+                        	<img src="image/projectimages/sangam.png">
                     	<h5 class="text-left text-primary mt-3">Description</h5>
                     	<ul class="text-left">
-							<li class="text-light"><span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="200"></span> London, United Kingdom</li>
-							<li class="text-light"><span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="300"></span> Made an end to end E-commerce website for the client that sells Indian ethnic wears for UK audience using WordPress</li>
-							<li class="text-light"><span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="400"></span> Integrated PayPal payment gateway and have applied custom logic discounts, sales and shipping charges for various countries</li>
-							<li class="text-light"><span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="500"></span> Exposure: Wordpress, HTML, CSS</li>
-							<li class="text-light"><span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="600"></span> <a href="https://www.dinaudupa.com/">dinaudupa.com</a></li>
+							<li class="text-light"><span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="200"></span> Made a standalone website to print reports for their patient</li>
+							<li class="text-light"><span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="300"></span> No Database, No server, No hosting</li>
+							<li class="text-light"><span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="400"></span> Exposure: Javascript, HTML, CSS</li>
+							<li class="text-light"><span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="500"></span> <a href="https://sangampath.herokuapp.com">sangampath.herokuapp.com</a></li>
 						</ul>
                         </div>
-                    </div> -->
+                    </div>
                     
-                    <div data-aos="fade-left" data-aos-delay="100" class="col-lg-12 col-sm-12 col-md-12 text-center px-5 mt-4 parentclient">
+                    <div data-aos="fade-left" data-aos-delay="100" class="col-lg-6 col-sm-12 col-md-6 text-center px-5 mt-4 parentclient">
                         <div class="clientcontainer p-4">
-                        <div class="row m-0">
-                            <div class="col-lg-6 col-md-6 col-sm-12">
+                        <!-- <div class="row m-0"> -->
+                           <!--  <div class="col-lg-6 col-md-6 col-sm-12"> -->
                                 <h5  class="text-left text-primary">Effort To Success</h5>
                                 <img src="image/projectimages/ets.png" class="">
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                <h5  class="text-left text-primary description-heading">Description</h5>
+                         <!--    </div> -->
+                           <!--  <div class="col-lg-6 col-md-6 col-sm-12"> -->
+                                <h5  class="text-left text-primary description-heading mt-3">Description</h5>
                                 <ul  class="text-left">
                                     <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="200"></span> Delhi, India</li>
                                     <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="300"></span> A learning Management System (LMS) was made, that conducts online classes, schedules lectures, and conducts online test and created non tech friendly admin panel for faculties</li>
@@ -277,8 +276,8 @@
                                     <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="500"></span> Exposure: WebRTC, Nodejs, Core PHP, HTML, CSS, Bootstrap</li>
                                     <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="600"></span> <a href="https://efforttosuccess.in/ETS/">efforttosuccess.in/ETS</a></li>
                                 </ul>
-                            </div>
-                        </div>
+                            <!-- </div> -->
+                     <!--    </div> -->
                     	
                     	
                         </div>
@@ -288,11 +287,11 @@
             
         </section>
     </div>
-        <!-- internship-->
+        <!-- peoject-->
         <div class="bg-dark" >
         <section id="internship" class="page-section">
             <div class="container-fluid p-0">
-			<div data-tilt data-tilt-full-page-listening><h2 class="text-center mt-0 " data-aos="fade-up" >Internship Projects</h2></div>
+			<div data-tilt data-tilt-full-page-listening><h2 class="text-center mt-0 " data-aos="fade-up" >Projects</h2></div>
                 <hr class="divider dark my-4" />
                 <div class="row m-0 px-5 pb-4">
                     <div class="col-lg-4 col-md-4 col-sm-6 mt-5">
@@ -323,6 +322,29 @@
                         >
                     </div>
                     <div class="col-lg-2 col-md-2 col-sm-6 emptycontainer"></div>
+
+                     <div class="col-lg-4 col-md-4 col-sm-6 mt-5">
+                        <a class="internship-box" href="https://www.youtube.com/watch?v=JXMVUHjqYXA"
+                            ><img class="img-fluid" src="image/projectimages/notifier.png" alt="" />
+                            <div class="internship-box-caption p-3">
+                                <div class="project-category text-white-50">Web App</div>
+                                <div class="project-name">Notifier</div>
+                            </div></a
+                        >
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-6 mt-5">
+                        <a class="internship-box" href="https://seacamel.herokuapp.com/"
+                            ><img class="img-fluid" src="image/projectimages/seacamel.png" alt="" />
+                            <div class="internship-box-caption p-3">
+                                <div class="project-category text-white-50">Website</div>
+                                <div class="project-name">Seacamel</div>
+                            </div></a
+                        >
+                    </div>
+
+                    <div class="col-lg-2 col-md-2 col-sm-6 emptycontainer"></div>
+                   
                     <div class="col-lg-4 col-md-4 col-sm-6 mt-5">
                         <a  class="internship-box" href="https://krishnamcomputers.com/"
                             ><img class="img-fluid" src="image/projectimages/krishnum.png" alt="" />
@@ -341,8 +363,17 @@
                             </div></a
                         >
                     </div>
-                    <div class="col-lg-2 col-md-2 col-sm-6 emptycontainer"></div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 mt-5 hiddencontainer">
+                     <div class="col-lg-4 col-md-4 col-sm-6 mt-5">
+                        <a class="internship-box" href="https://harsh-sharma.herokuapp.com/Mychatbot.html"
+                            ><img class="img-fluid" src="image/projectimages/chatbot.png" alt="" />
+                            <div class="internship-box-caption p-3">
+                                <div class="project-category text-white-50">Simple</div>
+                                <div class="project-name">Chatbot</div>
+                            </div></a
+                        >
+                    </div>
+                    
+                    <!-- <div class="col-lg-4 col-md-4 col-sm-6 mt-5 hiddencontainer">
                         <a  class="internship-box" href="https://dgsharma.com/"
                             ><img class="img-fluid" src="image/comingsoon.jpg" alt="" />
                             <div class="internship-box-caption p-3">
@@ -350,7 +381,7 @@
                                 <div class="project-name">Soon</div>
                             </div></a
                         >
-                    </div>
+                    </div>  -->
                 </div>
             </div>
         </section>

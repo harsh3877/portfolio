@@ -21,14 +21,14 @@
 					<li class="nav-item">
 					  <a class="nav-link js-scroll-trigger" href="#services">Services</a>
 					</li><li class="nav-item">
-					  <a class="nav-link js-scroll-trigger" href="#clientrelation">Clent Relations</a>
+					  <a class="nav-link js-scroll-trigger" href="#clientrelation">Clients</a>
 					</li>
 
 					<li class="nav-item">
-					  <a class="nav-link js-scroll-trigger"  href="#internship">Internships Project</a>
+					  <a class="nav-link js-scroll-trigger"  href="#internship">Projects</a>
 					</li>
 					<li class="nav-item">
-					  <a class="nav-link js-scroll-trigger"  href="#contact">Get In Touch</a>
+					  <a class="nav-link js-scroll-trigger"  href="#contact">Contact Me</a>
 					</li>
 				 </ul>
 				</div>
