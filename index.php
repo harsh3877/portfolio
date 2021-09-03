@@ -153,7 +153,7 @@
 
 <div class="container-fluid p-0">
 	<div class="row m-0">
-		<div class="col-md-2 col-lg-2 p-0">
+		<div class="col-md-2 col-lg-2 p-0 paintDrop">
 			<?php include 'menu.php'; ?>
 
 		</div>
@@ -291,11 +291,11 @@
         <div class="bg-dark" >
         <section id="internship" class="page-section">
             <div class="container-fluid p-0">
-			<div data-tilt data-tilt-full-page-listening><h2 class="text-center mt-0 " data-aos="fade-up" >Projects</h2></div>
+			<div data-tilt data-tilt-full-page-listening><h2 class="text-center mt-0 " data-aos="fade-up" >Web Projects</h2></div>
                 <hr class="divider dark my-4" />
                 <div class="row m-0 px-5 pb-4">
-                    <div class="col-lg-4 col-md-4 col-sm-6 mt-5">
-                        <a   class="internship-box" href="http://biozap.org/"
+                    <div class="col-lg-4 col-md-4 col-sm-6 mt-5 ">
+                        <a   class="internship-box mx-auto" href="http://biozap.org/"
                             ><img class="img-fluid" src="image/projectimages/biozap.png" alt="" />
                             <div class="internship-box-caption">
                                 <div class="project-category text-white-50">Bio Fertilizer</div>
@@ -303,8 +303,8 @@
                             </div></a
                         >
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 mt-5">
-                        <a class="internship-box" href="https://capslearning.org/"
+                    <div class="col-lg-4 col-md-4 col-sm-6 mt-5 ">
+                        <a class="internship-box mx-auto" href="https://capslearning.org/"
                             ><img class="img-fluid" src="image/projectimages/caps.png" alt="" />
                             <div class="internship-box-caption">
                                 <div class="project-category text-white-50">CA Coaching</div>
@@ -312,8 +312,8 @@
                             </div></a
                         >
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 mt-5">
-                        <a  class="internship-box" href="https://synapsemindcare.com/"
+                    <div class="col-lg-4 col-md-4 col-sm-6 mt-5 ">
+                        <a  class="internship-box mx-auto" href="https://synapsemindcare.com/"
                             ><img class="img-fluid" src="image/projectimages/synapse.png" alt="" />
                             <div class="internship-box-caption">
                                 <div class="project-category text-white-50">Mind Care Doctor</div>
@@ -323,8 +323,8 @@
                     </div>
                     <div class="col-lg-2 col-md-2 col-sm-6 emptycontainer"></div>
 
-                     <div class="col-lg-4 col-md-4 col-sm-6 mt-5">
-                        <a class="internship-box" href="https://www.youtube.com/watch?v=JXMVUHjqYXA"
+                     <div class="col-lg-4 col-md-4 col-sm-6 mt-5 ">
+                        <a class="internship-box mx-auto" href="https://www.youtube.com/watch?v=JXMVUHjqYXA"
                             ><img class="img-fluid" src="image/projectimages/notifier.png" alt="" />
                             <div class="internship-box-caption p-3">
                                 <div class="project-category text-white-50">Web App</div>
@@ -333,8 +333,8 @@
                         >
                     </div>
 
-                    <div class="col-lg-4 col-md-4 col-sm-6 mt-5">
-                        <a class="internship-box" href="https://seacamel.herokuapp.com/"
+                    <div class="col-lg-4 col-md-4 col-sm-6 mt-5 ">
+                        <a class="internship-box mx-auto" href="https://seacamel.herokuapp.com/"
                             ><img class="img-fluid" src="image/projectimages/seacamel.png" alt="" />
                             <div class="internship-box-caption p-3">
                                 <div class="project-category text-white-50">Website</div>
@@ -345,8 +345,8 @@
 
                     <div class="col-lg-2 col-md-2 col-sm-6 emptycontainer"></div>
                    
-                    <div class="col-lg-4 col-md-4 col-sm-6 mt-5">
-                        <a  class="internship-box" href="https://krishnamcomputers.com/"
+                    <div class="col-lg-4 col-md-4 col-sm-6 mt-5 ">
+                        <a  class="internship-box mx-auto" href="https://krishnamcomputers.com/"
                             ><img class="img-fluid" src="image/projectimages/krishnum.png" alt="" />
                             <div class="internship-box-caption">
                                 <div class="project-category text-white-50">Rental Computers</div>
@@ -354,8 +354,8 @@
                             </div></a
                         >
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 mt-5">
-                        <a class="internship-box" href="https://dgsharma.com/"
+                    <div class="col-lg-4 col-md-4 col-sm-6 mt-5 ">
+                        <a class="internship-box mx-auto" href="https://dgsharma.com/"
                             ><img class="img-fluid" src="image/projectimages/dgsharma.png" alt="" />
                             <div class="internship-box-caption p-3">
                                 <div class="project-category text-white-50">CA Classes</div>
@@ -363,8 +363,8 @@
                             </div></a
                         >
                     </div>
-                     <div class="col-lg-4 col-md-4 col-sm-6 mt-5">
-                        <a class="internship-box" href="https://harsh-sharma.herokuapp.com/Mychatbot.html"
+                     <div class="col-lg-4 col-md-4 col-sm-6 mt-5 ">
+                        <a class="internship-box  mx-auto" href="https://harsh-sharma.herokuapp.com/Mychatbot.html"
                             ><img class="img-fluid" src="image/projectimages/chatbot.png" alt="" />
                             <div class="internship-box-caption p-3">
                                 <div class="project-category text-white-50">Simple</div>
@@ -383,6 +383,51 @@
                         >
                     </div>  -->
                 </div>
+
+                <div data-tilt data-tilt-full-page-listening><h2 class="text-center mt-5 " data-aos="fade-up" >Mobile Projects</h2></div>
+                	<hr class="divider dark my-4" />
+                	<div class="row m-0">
+                		<div class="col-sm-12 col-md-6 col-lg-6 text-center  p-4">
+                			<a href="projectPDF/setgoal.pdf" target="_blank">
+                			<div class="slidenow" >
+	                			<img class="mobileprojectIMG" src="image/projectimages/imggoal.png" alt=""/>
+	                			
+	                			<div class="hiddenDescription bg-dark">
+	                				<div>
+		                				<h4 class="text-light"> Set Goal</h4>	
+			        				    <ul  type='none' class="text-left" >
+		                                    <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint"></span> Set up goals </li>
+		                                    <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint"></span> Functionality for add and delete</li>
+		                                    <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint"></span> Assign to completed goals </li>
+		                                    <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint"></span>  Exposure: React Native, Expo</li>
+		                                    
+		                                </ul>
+	                				</div>
+		        				</div>
+	        		        </div>
+	        		    	</a>
+                    	</div>
+                		<div class="col-sm-12 col-md-6 col-lg-6 text-center p-4">
+                			<a href="projectPDF/guessanumber.pdf" target="_blank">
+                			<div class="slidenow" >
+	                			<img class="mobileprojectIMG" src="image/projectimages/imgNumber.png" alt=""/>
+	                			
+	                			<div class="hiddenDescription bg-dark">
+	                				<div>
+		                				<h4 class="text-light"> Set Goal</h4>	
+			        				    <ul  type='none' class="text-left" >
+		                                    <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint"></span> Number game </li>
+		                                    <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint"></span> User entered number guess by system</li>
+		                                    <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint"></span> Number guessing accomplished by two buttons </li>
+		                                    <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint"></span>  Exposure: React Native, Expo</li>
+		                                    
+		                                </ul>
+	                				</div>
+		        				</div>
+	        		        </div>
+	        		    	</a>
+                		</div>
+                	</div>
             </div>
         </section>
        </div>
@@ -514,9 +559,7 @@
                 $('[data-toggle="tooltip"]').tooltip()
             })
 </script>
-<script>
-console.log(window.innerHeight);
-</script>
+
 </body>
 
 </html>
