@@ -221,22 +221,35 @@ box-shadow:  7px 7px 10px rgb(0 0 0 / 70%), -7px -7px 20px rgb(0 0 0 / 30%);
 	.internship-box
 	{
 		transform: rotate(0deg )  rotate3d(0, 0, 0, -72deg ) !important;
+		width: 80%;
 	}
 
 	.internship-box-caption{
 		opacity: 1 !important;
 	}
+
+	.hiddenDescription{
+		margin-left: 2% !important;
+		opacity: 1 !important;
+		font-size: 15px !important;
+	}
 }
 
 @media only screen and (max-width: 575px) {
-	.hiddencontainer{
+	.hiddencontainer,{
 		display: none;
 	}
 	.page-section{
 		padding:2rem 0 !important;
 	}
 
+	.hiddenDescription{
+		margin-left: 2% !important;
+		opacity: 1 !important;
+		font-size: 12px !important;
+	}
 
+	
 
 }
 
@@ -288,4 +301,70 @@ box-shadow:  7px 7px 10px rgb(0 0 0 / 70%), -7px -7px 20px rgb(0 0 0 / 30%);
 	box-shadow: 0px 0px 20px 10px #824027;
     border-radius: 100px;
     background: #824027
+}
+
+
+.myPic{
+	width: 100% !important;
+    border-radius: 100%;
+    border: .5rem solid rgba(255,255,255,.2);
+    transition: .5s;
+}
+
+.myPic:hover{
+	width: 200% !important;
+    border-radius: 5%;
+
+}
+
+.paintDrop{
+	background-image: url(../image/paintbg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #343a40 !important;
+
+}
+
+
+.mobileprojectIMG{
+	width:35%;
+	border-radius: 5px;
+	/*border: 1px solid #d2d2d2;*/
+	box-shadow: 0 0 20px 0px #d2d2d2;
+}
+
+
+.hiddenDescription{
+	transition: 0.5s;
+    background: red;
+   margin-left: -35%;
+    width: 35%;
+    display: inline-flex;
+    opacity: 0;
+	height: 100%;
+  	border-radius: 5px;
+  	box-shadow: 0 0 0px 4px rgb(0 0 0 /10%);
+  	overflow: hidden;
+  
+}
+
+
+a{text-decoration: none !important;}
+
+.slidenow{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.slidenow:hover .hiddenDescription{
+	margin-left: 2%;
+	 opacity: 1;
+	 
+
+}
+
+.hiddenDescription ul{
+	margin-left: -23px;
 }
