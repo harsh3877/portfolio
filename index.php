@@ -390,7 +390,7 @@
                 		<div class="col-sm-12 col-md-6 col-lg-6 text-center  p-4">
                 			<a href="projectPDF/setgoal.pdf" target="_blank">
                 			<div class="slidenow" >
-	                			<img class="mobileprojectIMG" src="image/projectimages/imggoal.png" alt=""/>
+	                			<img class="mobileprojectIMG" src="image/projectimages/imgGoal.png" alt=""/>
 	                			
 	                			<div class="hiddenDescription bg-dark">
 	                				<div>
@@ -410,7 +410,7 @@
                 		<div class="col-sm-12 col-md-6 col-lg-6 text-center p-4">
                 			<a href="projectPDF/guessanumber.pdf" target="_blank">
                 			<div class="slidenow" >
-	                			<img class="mobileprojectIMG" src="image/projectimages/imgNumber.png" alt=""/>
+	                			<img class="mobileprojectIMG" src="image/projectimages/imgnumber.png" alt=""/>
 	                			
 	                			<div class="hiddenDescription bg-dark">
 	                				<div>
