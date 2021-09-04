@@ -390,16 +390,16 @@
                 		<div class="col-sm-12 col-md-6 col-lg-6 text-center  p-4">
                 			<a href="projectPDF/setgoal.pdf" target="_blank">
                 			<div class="slidenow" >
-	                			<img class="mobileprojectIMG" src="image/projectimages/imgGoal.png" alt=""/>
+	                			<img class="mobileprojectIMG" src="image/projectimages/imggoal.png" alt=""/>
 	                			
 	                			<div class="hiddenDescription bg-dark">
 	                				<div>
-		                				<h4 class="text-light"> Set Goal</h4>	
+		                				<h5 class="text-dark"> Set Goal</h5>	
 			        				    <ul  type='none' class="text-left" >
-		                                    <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint"></span> Set up goals </li>
-		                                    <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint"></span> Functionality for add and delete</li>
-		                                    <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint"></span> Assign to completed goals </li>
-		                                    <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint"></span>  Exposure: React Native, Expo</li>
+		                                    <li class="text-dark"> <span class="fa fa-angle-right text-light bulletpoint"></span> Set up goals </li>
+		                                    <li class="text-dark"> <span class="fa fa-angle-right text-light bulletpoint"></span> Functionality for add and delete</li>
+		                                    <li class="text-dark"> <span class="fa fa-angle-right text-light bulletpoint"></span> Assign to completed goals </li>
+		                                    <li class="text-dark"> <span class="fa fa-angle-right text-light bulletpoint"></span>  Exposure: React Native, Expo</li>
 		                                    
 		                                </ul>
 	                				</div>
@@ -410,16 +410,16 @@
                 		<div class="col-sm-12 col-md-6 col-lg-6 text-center p-4">
                 			<a href="projectPDF/guessanumber.pdf" target="_blank">
                 			<div class="slidenow" >
-	                			<img class="mobileprojectIMG" src="image/projectimages/imgnumber.png" alt=""/>
+	                			<img class="mobileprojectIMG" src="image/projectimages/imgNumber.png" alt=""/>
 	                			
 	                			<div class="hiddenDescription bg-dark">
 	                				<div>
-		                				<h4 class="text-light"> Set Goal</h4>	
+		                				<h5 class="text-dark">Guess Number</h5>	
 			        				    <ul  type='none' class="text-left" >
-		                                    <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint"></span> Number game </li>
-		                                    <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint"></span> User entered number guess by system</li>
-		                                    <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint"></span> Number guessing accomplished by two buttons </li>
-		                                    <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint"></span>  Exposure: React Native, Expo</li>
+		                                    <li class="text-dark"> <span class="fa fa-angle-right text-light bulletpoint"></span> Number game </li>
+		                                    <li class="text-dark"> <span class="fa fa-angle-right text-light bulletpoint"></span> User entered number guess by system</li>
+		                                    <li class="text-dark"> <span class="fa fa-angle-right text-light bulletpoint"></span> Number guessing accomplished by two buttons </li>
+		                                    <li class="text-dark"> <span class="fa fa-angle-right text-light bulletpoint"></span>  Exposure: React Native, Expo</li>
 		                                    
 		                                </ul>
 	                				</div>
