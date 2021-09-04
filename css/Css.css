@@ -221,7 +221,7 @@ box-shadow:  7px 7px 10px rgb(0 0 0 / 70%), -7px -7px 20px rgb(0 0 0 / 30%);
 	.internship-box
 	{
 		transform: rotate(0deg )  rotate3d(0, 0, 0, -72deg ) !important;
-		width: 80%;
+		
 	}
 
 	.internship-box-caption{
@@ -233,6 +233,7 @@ box-shadow:  7px 7px 10px rgb(0 0 0 / 70%), -7px -7px 20px rgb(0 0 0 / 30%);
 		opacity: 1 !important;
 		font-size: 15px !important;
 	}
+
 }
 
 @media only screen and (max-width: 575px) {
@@ -249,8 +250,13 @@ box-shadow:  7px 7px 10px rgb(0 0 0 / 70%), -7px -7px 20px rgb(0 0 0 / 30%);
 		font-size: 12px !important;
 	}
 
-	
+	.hiddenDescription h5{
+		font-size: 15px !important;
+	}
 
+	.mobileprojectIMG {
+    	width: 50% !important;
+	}
 }
 
 .loadercontainer{
@@ -337,7 +343,8 @@ box-shadow:  7px 7px 10px rgb(0 0 0 / 70%), -7px -7px 20px rgb(0 0 0 / 30%);
 .hiddenDescription{
 	transition: 0.5s;
     background: red;
-   margin-left: -35%;
+    margin-left: -35%;
+    padding: 2px;
     width: 35%;
     display: inline-flex;
     opacity: 0;
@@ -345,7 +352,8 @@ box-shadow:  7px 7px 10px rgb(0 0 0 / 70%), -7px -7px 20px rgb(0 0 0 / 30%);
   	border-radius: 5px;
   	box-shadow: 0 0 0px 4px rgb(0 0 0 /10%);
   	overflow: hidden;
-  
+  	background-color: rgba(244, 98, 58, 0.9) !important;
+
 }
 
 
