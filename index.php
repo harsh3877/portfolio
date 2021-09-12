@@ -3,58 +3,23 @@
 <html lang="en">
 
 <head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+ 	<title>Harsh Sharma | Personal Website.</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta property="og:title" content="Harsh Sharma" />
+		<meta property="og:locale" content="en_US" />
+		<meta name="description" content="Personal Website." />
+		<meta property="og:description" content="Personal Website." />
+		<link rel="canonical" href="https://harsh-sharma.herokuapp.com/" />
+		<meta property="og:url" content="https://harsh-sharma.herokuapp.com/" />
+		<meta property="og:site_name" content="Harsh Sharma" />
+		
   <style type="text/css">
-      @keyframes load {
-    0%{
-        opacity: 0.08;
-/*         font-size: 10px; */
-/*              font-weight: 400; */
-                filter: blur(5px);
-                letter-spacing: 3px;
-        }
-    100%{
-/*         opacity: 1; */
-/*         font-size: 12px; */
-/*              font-weight:600; */
-/*              filter: blur(0); */
-        }
-}
-
-#counterline{
-      background: #f60d54; 
-      border: none;
-     height: 1px;
-        margin-left: 0;
-}
-#animate {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height:100%;
-    margin: auto;
-    width: 172px;
-    animation:load 1.2s ease-in-out;
-    animation-direction: alternate;
-    text-shadow: 0 0 1px white;
-    font-family: ui-rounded;
-    font-weight: bold;
-    letter-spacing: 10px;
-}
-
-#page-top{
-
-}
-.counter{
-        position: absolute;
-}
+   @import url('https://fonts.googleapis.com/css?family=Faustina:400,400i,500,500i|Roboto+Mono|Open+Sans:400,600');
+            @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css');
+   
   </style>
-  <title>Harsh Sharma</title>
-
+ 
   <!-- Bootstrap core CSS -->
   
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -98,7 +63,7 @@
             	</div>
                 <div class="row h-100 align-items-center justify-content-center text-center">
                     <div class="col-lg-10 align-self-end">
-                        <h1 class="text-uppercase text-white font-weight-bold" data-aos="zoom-in">Harsh Sharma</h1>
+                        <span class="text-uppercase text-white font-weight-bold" data-aos="zoom-in" id="myname"></span><span id="blinking-cursor">|</span>
                         <!--hr class="divider my-4" /-->
 						<div class="container-fluid py-5">
 					<!--Quotes started-->
@@ -171,7 +136,7 @@
 									<li >I was the kid who didn’t break apart my Rubik’s cube so that I could get all the colors lined up—I was the 
 									kid who solved it.</li><br>
 									<li >Hi, I am Harsh Sharma, software developer at <b><a href='https://www.techment.com/'>Techment technology</a></b> 
-									. Highly enthusiastic and passionate about coding and testing of Softwares and Websites, with several skills and projects 
+									. Highly enthusiastic and passionate about coding and testing of softwares and websites, with several skills and projects 
 									in my arsenal, provided down below.</li><br>
 									<li >I am an analytical thinker, a keen problem solver, with a 
 									proactive attitude helping in disaster management in an increasingly technical world, behind every advancement 
@@ -390,7 +355,7 @@
                 		<div class="col-sm-12 col-md-6 col-lg-6 text-center  p-4">
                 			<a href="projectPDF/setgoal.pdf" target="_blank">
                 			<div class="slidenow" >
-	                			<img class="mobileprojectIMG" src="image/projectimages/imgGoal.png" alt=""/>
+	                			<img class="mobileprojectIMG" src="image/projectimages/imggoal.png" alt=""/>
 	                			
 	                			<div class="hiddenDescription bg-dark">
 	                				<div>
@@ -410,7 +375,7 @@
                 		<div class="col-sm-12 col-md-6 col-lg-6 text-center p-4">
                 			<a href="projectPDF/guessanumber.pdf" target="_blank">
                 			<div class="slidenow" >
-	                			<img class="mobileprojectIMG" src="image/projectimages/imgnumber.png" alt=""/>
+	                			<img class="mobileprojectIMG" src="image/projectimages/imgNumber.png" alt=""/>
 	                			
 	                			<div class="hiddenDescription bg-dark">
 	                				<div>
@@ -523,41 +488,78 @@
 	});
 </script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/loader.js"></script>
 	<script type="text/javascript">   
-		AOS.init({
-			offset:30,
-			duration:1000,
-		}); 
+		// AOS.init({
+		// 	offset:30,
+		// 	duration:1000,
+		// }); 
 		
 		</script>
 		<script type="text/javascript">
-        	(function(){
-                document.getElementById('loadercontainer').style.display="block";   
-                document.getElementById('page-top').style.overflowY="hidden";
-                 var counter = 0;
-              var c = 0;
-              var i = setInterval(function(){
-                  $(".counter h2 span").html(c);
-                  $("#counterline").css("width", c + "%");
+// 			var nameInterval;
+//         	(function(){
+//                 document.getElementById('loadercontainer').style.display="block";   
+//                 document.getElementById('page-top').style.overflowY="hidden";
+//                  var counter = 0;
+//               var c = 0;
+//               var i = setInterval(function(){
+//                   $(".counter h2 span").html(c);
+//                   $("#counterline").css("width", c + "%");
                  
-                counter++;
-                c++;
+//                 counter++;
+//                 c++;
                   
-                if(counter == 101) {
-                    clearInterval(i);
-                    document.getElementById('page-top').style.overflowY="auto";
+//                 if(counter == 101) {
+//                     clearInterval(i);
+//                     document.getElementById('page-top').style.overflowY="auto";
                    
-                    document.getElementById('loadercontainer').style.display="none";
-                  
-                }
-                 document.getElementById('loadercontainer').style.backdropFilter="blur("+(100-c)+"px)";
+//                     document.getElementById('loadercontainer').style.display="none";
+//                   nameInterval = setInterval(autotype, 100);
+//                 }
+//                  document.getElementById('loadercontainer').style.backdropFilter="blur("+(100-c)+"px)";
                 
-              }, 25);
-        	}());
+//               }, 25);
+//         	}());
 
-        	$(function () {
-                $('[data-toggle="tooltip"]').tooltip()
-            })
+//         	$(function () {
+//                 $('[data-toggle="tooltip"]').tooltip()
+//             });
+
+
+// const name = [
+// "H", 
+// "HA", 
+// "HAR",
+// "HARS",
+// "HARSH",
+// "HARSH",
+// "HARSH",
+// "HARSH",
+// "HARSH S",
+// "HARSH SH",
+// "HARSH SHA",
+// "HARSH SHAR",
+// "HARSH SHARM",
+// "HARSH SHARMA",
+// ];
+
+// var c=0;
+// console.log(name);
+// // var nameInterval = setInterval(autotype, 200);
+
+// function autotype(){
+// 	document.getElementById('myname').innerHTML = name[c] ;
+// 	c=c+1;
+// 	if(name.length==c){
+// 		clearInterval(nameInterval);
+// 		setTimeout(function(){
+// 			document.getElementById('blinking-cursor').style.display='none';
+// 		},1000);
+// 	}
+// }
+
+
 </script>
 
 </body>
