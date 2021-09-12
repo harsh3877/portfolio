@@ -432,7 +432,7 @@ box-shadow:  7px 7px 10px rgb(0 0 0 / 70%), -7px -7px 20px rgb(0 0 0 / 30%);
 }
 
 .paintDrop{
-	background-image: url(../image/paintbg.png);
+/* 	background-image: url(../image/paintbg.png); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: #343a40 !important;
