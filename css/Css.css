@@ -3,6 +3,107 @@
 	margin-top:0;
 	
 }
+/*started: code for welcome loader*/
+ @keyframes load {
+    0%{
+        opacity: 0.08;
+        filter: blur(5px);
+        letter-spacing: 3px;
+        }
+    100%{
+
+        }
+}
+
+#counterline{
+      background: #f60d54; 
+      border: none;
+     height: 1px;
+        margin-left: 0;
+}
+#animate {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    margin: auto;
+    width: 172px;
+    animation:load 1.2s ease-in-out;
+    animation-direction: alternate;
+    text-shadow: 0 0 1px white;
+    font-family: ui-rounded;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+
+.counter{
+        position: absolute;
+}
+/*end: code for welcome loader*/
+
+/*started: code for auto typing*/
+#myname{
+	font-size: 3rem;
+}
+
+#blinking-cursor {
+ 
+  font-size: 2.75rem;
+ position: absolute;
+  -webkit-animation: 0.5s blink step-end infinite;
+  -moz-animation: 0.5s blink step-end infinite;
+  -ms-animation: 0.5s blink step-end infinite;
+  -o-animation: 0.5s blink step-end infinite;
+  animation: 0.5s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+/*ended: code for auto typing*/
+
 
 body{
 	overflow-x: hidden;
@@ -256,6 +357,13 @@ box-shadow:  7px 7px 10px rgb(0 0 0 / 70%), -7px -7px 20px rgb(0 0 0 / 30%);
 
 	.mobileprojectIMG {
     	width: 50% !important;
+	}
+
+	#myname{
+		font-size: 2.25rem !important; 
+	}
+	#blinking-cursor {
+	  font-size: 2rem;
 	}
 }
 
