@@ -51,7 +51,7 @@ const name = [
 ];
 
 var c=0;
-console.log(name);
+
 // var nameInterval = setInterval(autotype, 200);
 
 function autotype(){
