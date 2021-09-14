@@ -129,7 +129,7 @@
 				<div class="container-fluid">
 					<div class="row ">
 						<div class="">
-							<div data-tilt data-tilt-full-page-listening><h2 class=" text-light mt-0 text-center"data-aos="fade-up">I've got what you need!</h2></div>
+							<div data-tilt data-tilt-full-page-listening><h2 class=" text-light mt-0 text-center" data-aos="fade-up">I've got what you need!</h2></div>
 							<hr class="divider dark my-4" />
 							<div class="text-white-50 mb-4 text-left px-5">
 								<ul type="none" class="text-white myintro">
@@ -145,9 +145,9 @@
 									people using analytical skills and drawing out valuable insights out of code.</li>
 								</ul>
 							</div>
-							<div class="text-center">
+							<!-- <div class="text-center">
 							<a class="btn btn-light btn-xl js-scroll-trigger " href="#services">Get Started!</a>
-							</div>
+							</div> -->
 						</div>
 					</div>
 				</div>
@@ -355,7 +355,7 @@
                 		<div class="col-sm-12 col-md-6 col-lg-6 text-center  p-4">
                 			<a href="projectPDF/setgoal.pdf" target="_blank">
                 			<div class="slidenow" >
-	                			<img class="mobileprojectIMG" src="image/projectimages/imgGoal.png" alt=""/>
+	                			<img class="mobileprojectIMG" src="image/projectimages/imggoal.png" alt=""/>
 	                			
 	                			<div class="hiddenDescription bg-dark">
 	                				<div>
@@ -375,7 +375,7 @@
                 		<div class="col-sm-12 col-md-6 col-lg-6 text-center p-4">
                 			<a href="projectPDF/guessanumber.pdf" target="_blank">
                 			<div class="slidenow" >
-	                			<img class="mobileprojectIMG" src="image/projectimages/imgnumber.png" alt=""/>
+	                			<img class="mobileprojectIMG" src="image/projectimages/imgNumber.png" alt=""/>
 	                			
 	                			<div class="hiddenDescription bg-dark">
 	                				<div>
@@ -450,22 +450,19 @@
         </section>
     </div>
         <!-- Footer-->
-        
+    <div class="container-fluid p-0 bg-dark">
+		<footer class="py-5 footer bg-dark">
+		    <div class="container">
+		    	<div class="small text-center text-muted">Copyright © <?php echo date('Y'); ?> - Harsh Sharma</div>
+		    </div>
+		</footer>
+	</div>
         
 		</div>
 	</div>
 <div>
  
-  <div class="container-fluid p-0 bg-dark">
  
-<footer class="py-5 footer bg-dark">
-    <div class="container">
-    	<div class="small text-center text-muted">Copyright © <?php echo date('Y'); ?> - Harsh Sharma</div>
-    </div>
-</footer>
-     
-        
-  </div>
 
   <!-- Bootstrap core JavaScript -->
   <!-- <script type="text/javascript" src="vendor/jquery/jquery.min.js"></script> -->
@@ -489,78 +486,8 @@
 </script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="js/loader.js"></script>
-	<script type="text/javascript">   
-		// AOS.init({
-		// 	offset:30,
-		// 	duration:1000,
-		// }); 
-		
-		</script>
-		<script type="text/javascript">
-// 			var nameInterval;
-//         	(function(){
-//                 document.getElementById('loadercontainer').style.display="block";   
-//                 document.getElementById('page-top').style.overflowY="hidden";
-//                  var counter = 0;
-//               var c = 0;
-//               var i = setInterval(function(){
-//                   $(".counter h2 span").html(c);
-//                   $("#counterline").css("width", c + "%");
-                 
-//                 counter++;
-//                 c++;
-                  
-//                 if(counter == 101) {
-//                     clearInterval(i);
-//                     document.getElementById('page-top').style.overflowY="auto";
-                   
-//                     document.getElementById('loadercontainer').style.display="none";
-//                   nameInterval = setInterval(autotype, 100);
-//                 }
-//                  document.getElementById('loadercontainer').style.backdropFilter="blur("+(100-c)+"px)";
-                
-//               }, 25);
-//         	}());
+	
 
-//         	$(function () {
-//                 $('[data-toggle="tooltip"]').tooltip()
-//             });
-
-
-// const name = [
-// "H", 
-// "HA", 
-// "HAR",
-// "HARS",
-// "HARSH",
-// "HARSH",
-// "HARSH",
-// "HARSH",
-// "HARSH S",
-// "HARSH SH",
-// "HARSH SHA",
-// "HARSH SHAR",
-// "HARSH SHARM",
-// "HARSH SHARMA",
-// ];
-
-// var c=0;
-// console.log(name);
-// // var nameInterval = setInterval(autotype, 200);
-
-// function autotype(){
-// 	document.getElementById('myname').innerHTML = name[c] ;
-// 	c=c+1;
-// 	if(name.length==c){
-// 		clearInterval(nameInterval);
-// 		setTimeout(function(){
-// 			document.getElementById('blinking-cursor').style.display='none';
-// 		},1000);
-// 	}
-// }
-
-
-</script>
 
 </body>
 
