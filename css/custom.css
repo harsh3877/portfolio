@@ -25,20 +25,7 @@ padding-left:0 !important
 	
 }
 
-.rot
-{
-	transition: transform 0.5s;
-	
-   
-}
 
-.rot:hover
-{
-	transform: rotate(360deg);
-	cursor:pointer;
-	color:#f4623a !important;
-	
-}
 .navbar-brand{
 display: contents; !important}
 .navbar-dark .navbar-toggler
