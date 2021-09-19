@@ -194,8 +194,8 @@ a.btnlink
 
 
 .clientcontainer{
-	border-radius: 10px;
-box-shadow:  5px 5px 10px rgb(0 0 0 / 70%), -5px -5px 20px rgb(0 0 0 / 30%); 
+border-radius: 10px;
+/*box-shadow:  5px 5px 10px rgb(0 0 0 / 70%), -5px -5px 20px rgb(0 0 0 / 30%); */
 transition: .4s;
 cursor: pointer;
 transform-style: preserve-3d;
@@ -207,14 +207,15 @@ height: 100%;
 
 .clientcontainer:hover{
 
-box-shadow:  7px 7px 10px rgb(0 0 0 / 70%), -7px -7px 20px rgb(0 0 0 / 30%); 
+box-shadow:  3px 3px 10px rgb(0 0 0 / 70%), -3px -3px 10px rgb(0 0 0 / 30%); 
 }
 .clientcontainer img{
 	max-width: 100%;
-	border:1px solid #d2d2d2;
+	/*border:1px solid #d2d2d2;*/
 	border-radius: 5px;
 	padding:1px;
 	transform: translateZ(20px);
+	margin-top: -40px;
 }
 
 .clientcontainer ul{
