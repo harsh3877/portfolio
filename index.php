@@ -455,7 +455,7 @@
     <div class="container-fluid p-0 bg-dark">
 		<footer class="py-5 footer bg-dark">
 		    <div class="container">
-		    	<div class="small text-center text-muted">Copyright © <?php echo date('Y'); ?> - Harsh Sharma</div>
+		    	<div class="small text-center text-muted">Beta stage © <?php echo date('Y'); ?> - Harsh Sharma</div>
 		    </div>
 		</footer>
 	</div>
