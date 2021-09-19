@@ -213,9 +213,10 @@
                 <div class="row m-0 pb-4">
                   <div data-aos="fade-right" data-aos-delay="100" class="col-lg-6 col-sm-12 col-md-6 text-center  px-5 mt-4 parentclient">
                         <div class="clientcontainer p-4">
-                    	<h5 class="text-left text-primary">Sangam Pathology</h5>
                         	<img src="image/projectimages/sangam.png">
-                    	<h5 class="text-left text-primary mt-3">Description</h5>
+                    	<h5 class="text-left text-primary mt-3">Sangam Pathology</h5>
+                    	<hr>
+                    	<h6 class="text-left text-primary mt-3">Description</h6>
                     	<ul class="text-left">
 							<li class="text-light"><span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="200"></span> Made a standalone website to print reports for their patient</li>
 							<li class="text-light"><span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="300"></span> No Database, No server, No hosting</li>
@@ -229,17 +230,18 @@
                         <div class="clientcontainer p-4">
                         <!-- <div class="row m-0"> -->
                            <!--  <div class="col-lg-6 col-md-6 col-sm-12"> -->
-                                <h5  class="text-left text-primary">Effort To Success</h5>
                                 <img src="image/projectimages/ets.png" class="">
+                                <h5  class="text-left text-primary mt-3">Effort To Success</h5>
                          <!--    </div> -->
                            <!--  <div class="col-lg-6 col-md-6 col-sm-12"> -->
-                                <h5  class="text-left text-primary description-heading mt-3">Description</h5>
+                           	<hr>
+                                <h6  class="text-left text-primary description-heading mt-3">Description</h6>
                                 <ul  class="text-left">
-                                    <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="200"></span> Delhi, India</li>
-                                    <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="300"></span> A learning Management System (LMS) was made, that conducts online classes, schedules lectures, and conducts online test and created non tech friendly admin panel for faculties</li>
-                                    <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="400"></span> Integrated payment gateway using Razor Pay</li>
-                                    <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="500"></span> Exposure: WebRTC, Nodejs, Core PHP, HTML, CSS, Bootstrap</li>
-                                    <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="600"></span> <a href="https://efforttosuccess.in/ETS/">efforttosuccess.in/ETS</a></li>
+                                   <!--  <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="200"></span> Delhi, India</li> -->
+                                    <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="200"></span> A learning Management System (LMS) was made, that conducts online classes, schedules lectures, and conducts online test and created non tech friendly admin panel for faculties</li>
+                                    <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="300"></span> Integrated payment gateway using Razor Pay</li>
+                                    <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="400"></span> Exposure: WebRTC, Nodejs, Core PHP, HTML, CSS, Bootstrap</li>
+                                    <li class="text-light"> <span class="fa fa-angle-right text-primary bulletpoint" data-aos="fade-right" data-aos-delay="500"></span> <a href="https://efforttosuccess.in/ETS/">efforttosuccess.in/ETS</a></li>
                                 </ul>
                             <!-- </div> -->
                      <!--    </div> -->
