@@ -107,7 +107,7 @@
 			<!--Quotes ended-->
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <a data-aos="fade-up" type="button" href="resume/harshsharma's_resume.pdf" target="_blank" class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Get Resume</a>
+                        <a data-aos="fade-up" " href="resume/harshsharma's_resume.pdf" target="_blank" class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Get Resume</a>
                     </div>
 					
                 </div>
@@ -417,7 +417,7 @@
                     </div>
 					
                     <div data-aos="fade-right" data-aos-delay="200" class="col-4 col-md-2 col-lg-2 mr-auto text-center">
-                        <a data-toggle="tooltip" data-placement="top" title="Gmail" type="button" href="" onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=harshsharma3877@gmail.com','newwindow','width=800,height=450');return false;" class="rot fa fa-envelope fa-3x mb-3 text-muted" ></a>
+                        <a data-toggle="tooltip" data-placement="top" title="Gmail"  href="" onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=harshsharma3877@gmail.com','newwindow','width=800,height=450');return false;" class="rot fa fa-envelope fa-3x mb-3 text-muted" ></a>
                         
                     </div>
 					<!--  <div  data-aos="fade-right" data-aos-delay="300"  class="col-4 col-md-2 col-lg-2 ml-auto text-center mb-5 mb-lg-0">
@@ -428,7 +428,7 @@
 					
 					 <div data-aos="fade-right" data-aos-delay="400" class="col-4 col-md-2 col-lg-2 ml-auto text-center mb-5 mb-lg-0">
 
-                        <a data-toggle="tooltip" data-placement="top" title="Whatsapp"  type="button" onclick="window.open('https://wa.me/+919665654326?text=Hi!, I am sending this message from your portfolio.','newwindow','width=800,height=450');return false;" class="rot fa fa-whatsapp fa-3x mb-3 text-muted"></a>
+                        <a data-toggle="tooltip" data-placement="top" title="Whatsapp"  onclick="window.open('https://wa.me/+919665654326?text=Hi!, I am sending this message from your portfolio.','newwindow','width=800,height=450');return false;" class="rot fa fa-whatsapp fa-3x mb-3 text-muted"></a>
                        
                     </div>
 					
