@@ -59,7 +59,7 @@
             	<div class="contact">
             		<h4 class="mr-5" class="text-light"><a href="tel:9665654326"  class="text-light"><span class="text-primary fa fa-phone"></span> <span class="text">9665654326</span></a></h4>
             		<h4 class="mr-5"><a href="https://www.linkedin.com/in/harsh-sharma-b3a465172/" target="_blank" class="text-light"><span class="text-primary fa fa-linkedin-square"></span><span class="text"> linkedin</span></a></h4>
-            		<h4 class="mr-5"><a type="button" onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=harshsharma3877@gmail.com','newwindow','width=800,height=450');return false;" class="text-light"><span class="text-primary fa fa-envelope"></span><span class="text"> Gmail</span></a></h4>
+            		<h4 class="mr-5"><a  onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=harshsharma3877@gmail.com','newwindow','width=800,height=450');return false;" class="text-light"><span class="text-primary fa fa-envelope"></span><span class="text"> Gmail</span></a></h4>
             	</div>
                 <div class="row h-100 align-items-center justify-content-center text-center">
                     <div class="col-lg-10 align-self-end">
