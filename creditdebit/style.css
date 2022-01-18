@@ -1,0 +1,173 @@
+body {
+     background: linear-gradient(90deg,#FFA500 0%,#F14444 45%,#D53567 55%,#9A109A 99%);
+     transition: 0.3s;
+
+ }
+
+input,select{-webkit-appearance: none; box-shadow: none !important;}
+
+ .disableOvelay{
+ 	  width: 100%;
+    opacity: 0.5;
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    left: 0;
+    background: #f2f2f2;
+    border-radius: 8px;	
+ }
+.card{
+	width: 323.52px !important;
+	height: 204px;
+	overflow: hidden;
+	border-radius: 11px;
+	border: none;
+	background: linear-gradient(145deg, #e1e1e1, #bdbdbd);
+	transition: .5s;
+}
+
+.card-img{
+	width: 100%;
+	height: 100%;
+}
+
+.option_container img{
+	width: 70px;
+	height: 50px;
+	overflow: hidden;
+	border-radius: 10px;
+	border:1px solid #d2d2d2;
+	margin: 0px 5px;
+	cursor: pointer;
+
+}
+
+.option_container{
+	padding:5px 10px;
+	border-radius: 10px;
+	border:1px solid #d2d2d2;
+	display: flex;
+	position: relative;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.bgactive{
+	border:1px solid black !important;
+}
+
+.cardheaderImg{
+	position: absolute;
+    top: 0;
+    width: 100% !important;
+    left: 0;
+    height: 60px !important;
+}
+
+.cardchipImg{
+	width: 50px;
+    position: absolute;
+    top: 60px;
+
+}
+
+.cardtypeImg{
+	position: absolute;
+    top: 60px;
+    right: 11px;
+    width: 50px;
+    display: none;
+}
+
+.colorselector{
+	width: 20px;
+	height: 20px;
+}
+
+#firstname, #lastname{
+	text-transform: uppercase;
+}
+
+.blurbg{
+	filter: blur(4px);
+}
+
+.blurfg{
+	filter: blur(4px);
+}
+
+#cardback{
+	transform:rotateY(-90deg);
+	margin-top: -204px;
+}
+
+#card{
+	display: block;
+}
+
+.CD-card {
+  perspective: 1000px;
+  box-shadow: inset 5px 5px 20px rgb(0 0 0 / 20%), inset -5px -5px 20px rgb(225 225 225 / 10%), 5px 5px 20px rgb(0 0 0 / 30%), -5px -5px 20px rgb(225 225 225 / 10%);
+padding: 40px 0px;
+border-radius: 20px;
+border: 2px solid rgba(225,225,225,0.1);
+}
+
+.CD-card-inner {
+  position: relative;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  
+}
+
+.CD-card-turn {
+  transform: rotateY(180deg);
+}
+
+.CD-card-front, .CD-card-back {
+	transition: transform 0.6s;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.CD-card-back {  
+	transform: rotateY(180deg);
+	margin-top: -204px;
+}
+
+.magneticstrip{
+	height: 50px;
+	width: 100%;
+	position: absolute;
+	right: 0;
+}
+
+.cvvcontainer{
+	margin-top: 70px;
+	display: flex;
+}
+
+.glasscontainer{
+	 background: rgba(255,255,255,0.3);
+	 backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border-radius: 10px;
+	border:2px solid rgba(255,255,255,0.1);
+	padding: 20px 10px;
+}
+
+.BgOptioSelected{
+	border:2px solid #000 !important;
+}
+
+#cvvinput{
+	border-right: none;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+#validMonth{
+	border-left: none;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}

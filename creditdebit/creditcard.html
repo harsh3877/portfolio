@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Credi | Debit Card</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body onload="diableInput(false,0)">
+<div class="container div-center py-5">
+	<div class="row m-0 h-100 glasscontainer">
+		<div class="col-lg-6 col-md-6">
+			<form class="row g-3">
+				<div class="col-md-6">
+					<label class="form-label">Card Type</label>
+					<select class="form-select" onchange="enableStart(value)" id="cardType">
+					    <option value="0" selected>Choose...</option>
+					    <option value="1">Credit</option>
+					    <option value="2">Debit</option>
+					</select> 
+				</div>
+				<div class="col-md-6">
+					<label class="form-label">Card Subtype</label>
+					<select class="form-select enableDisable" id="txtcolor" onchange="chagesubtype(value)">
+					    <option selected >Choose...</option>
+					    <option value="images/visa.png">Visa</option>
+					    <option value="images/master.png">Master</option>
+					    <option value="images/rupay.png">RuPay</option>
+					</select> 
+				</div>
+			  <div class="col-12">
+			    <label for="cardno" class="form-label">Card Naumber</label>
+			    <input type="text" class="form-control enableDisable" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" maxlength="16" id="cardno" onkeyup ="cardnoinput()" >
+			  </div>
+			  <div class="col-md-6">
+			    <label for="fname" class="form-label">First Name</label>
+			    <input type="text" class="form-control enableDisable" id="fname" onkeypress="return /[a-z]/i.test(event.key)" onkeyup ="fnameinput()">
+			  </div>
+			  <div class="col-md-6">
+			    <label for="lname" class="form-label">Last name</label>
+			    <input type="text" class="form-control enableDisable" onkeypress="return /[a-z]/i.test(event.key)" id="lname" onkeyup ="lnameinput()">
+			  </div>
+			  <div class="col-md-6">
+			  	<div class="row m-0">
+			  	<div class="col-md-3 p-0">
+			  		
+			    <label for="cvvinput" class="form-label">CVV</label>
+			   	<input type="text" class="form-control enableDisable" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" id="cvvinput" maxlength="3" onblur="hidecvv()" onfocus="showcvv()" onkeyup="CVV_input()">
+			  	</div>
+			  	<div class="col-md-9 p-0">
+				    <label for="validMonth" class="form-label">Exp Dt</label>
+			   		<input type="month" id="validMonth" onchange="setExpiryDate(value)" class="form-control enableDisable" style="width: 193PX !important;">
+			  </div>
+			</div>
+			</div>
+			  <div class="col-md-6">
+			  	<div class="row m-0">
+			  		<div class="col-md-5 p-0">
+						<label class="form-label">Color</label>
+						<select class="form-select enableDisable" id="txtcolor" onchange="changetxtcolor(value)">
+						    <option selected>Choose...</option>
+						    <option value="text-light">White</option>
+						    <option value="text-danger">Red</option>
+						    <option value="text-warning">Yellow</option>
+						    <option value="text-success">Green</option>
+						    <option value="text-primary">Blue</option>
+						</select> 
+					</div>
+			  		<div class="col-md-7">
+			  		  	<label class="form-label ">Background Blur</label>
+					  	<input class="form-check-input enableDisable" type="checkbox" value="4" onclick="blurbg()">
+			  		</div>
+			  	</div>
+			  </div>
+			  <div class="col-md-12">
+				<label class="form-label">Foreground options</label>
+					<div class="option_container col-md-12 ">
+					<div class="disableOvelay" id="enableOverlay"></div>
+						<img class="bg-option BgOptioSelected " id="BgOption1" src="images/bg1.png" onclick="changecardFg(src,id)"/>
+						<img class="bg-option " id="BgOption2" src="images/bg2.jpg" onclick="changecardFg(src,id)"/>
+						<img class="bg-option " id="BgOption3" src="images/bg3.jpg" onclick="changecardFg(src,id)"/>
+						<img class="bg-option " id="BgOption4" src="images/bg4.png" onclick="changecardFg(src,id)"/>
+						<img class="bg-option " id="BgOption5" src="images/bg5.jpg" onclick="changecardFg(src,id)"/>
+					</div>
+				</div>
+				
+				
+			</form>
+		</div>
+		<div class="col-lg-6 col-md-6 my-auto">
+			<div class="CD-card">
+				<div class="CD-card-inner" id="turncard">
+			    	<div class="CD-card-front" >
+			    		<div class="card bg-dark text-dark w-50 mx-auto" >
+							<img id="cardFgImg" src="images/bg1.png" class="card-img" alt="...">
+							<div class="bluroverlay"></div>
+							<div class="card-img-overlay" id="bgimg">
+								<img class="cardheaderImg" src="images/cardheader.png" class="card-img" alt="...">
+								<img class="cardchipImg" src="images/chip.png" class="card-img" alt="...">
+								<img class="cardtypeImg" id="cardtypeImg" class="card-img" alt="...">
+								<span  id="customtxt" class="">
+								    <h4 class="card-title pt-5 mt-5 " id="cardnumber">Card number</h4>
+								    <div class="row m-0 p-0">
+								    	<div class="col-md-4 px-0">EXP: <span id="expDt">MM/DD</span></div>
+								    	<div class="col-md-8 px-0">
+								    		<div style="display: inline-flex; font-weight: 600;">
+										   		<p id="firstname" class="" style="margin-right: 10px;">Holder Name </p> <p id="lastname" class=""></p>
+											</div>
+									   	</div>
+								    </div>
+							    </span>
+							</div>
+						</div>
+			    	</div>
+			    <div class="CD-card-back">
+			    	<div class="card bg-dark text-dark w-50 mx-auto" >
+						<img id="cardBgImg" src="images/bg1.png" class="card-img" alt="..." style="transform: rotateY(-180deg);">
+						<div class="card-img-overlay" id="bgimg">
+							<div class="magneticstrip bg-dark"></div>
+							<div class="cvvcontainer bg-light p-2">
+						   		<p class="cvvnumber my-auto p-0" id="cvv">XXX</p>  
+							</div>
+						</div>
+					</div>
+			    </div>
+			</div>
+		</div>
+	</div>
+			
+	</div>
+</div>
+
+
+
+
+
+<!-- Script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+<script type="text/javascript" >
+var onceMonthInput=0
+	function diableInput(value,t){
+		onceMonthInput+=1;
+		if(onceMonthInput==1){
+			// console.log(new Date().getFullYear() + " " +new Date().getMonth()+1 );
+			document.getElementById('validMonth').setAttribute('min',new Date().getFullYear()+"-"+new Date().getMonth()+1);
+		}
+		if(t==1){
+			document.getElementById('txtcolor').classList.remove('enableDisable');
+		}else{
+			document.getElementById('txtcolor').classList.add('enableDisable');
+
+		}
+
+		x = document.querySelectorAll(".enableDisable");
+		  for (i = 0; i < x.length; i++) {
+		    x[i].disabled = value;
+		  }
+		if(value==false){
+		document.getElementById('enableOverlay').classList.remove('disableOvelay');
+		}else{
+			document.getElementById('enableOverlay').classList.add('disableOvelay');
+		}
+	}
+
+	function enableStart(value){
+		if(value>0){
+			document.getElementById('txtcolor').disabled = false;
+			if(isSubType==1){
+				diableInput(false,1);
+			}
+		}else{
+			document.getElementById('txtcolor').disabled = true;
+			if(isSubType==1){
+				diableInput(true,1);
+			}
+			
+		}
+	}
+
+	function changecardFg(src,id){
+		document.getElementById('cardFgImg').setAttribute('src',src);
+		document.getElementById('cardBgImg').setAttribute('src',src);
+		for(var i=1;i<6;i++){
+			document.getElementById('BgOption'+i).classList.remove('BgOptioSelected');
+		}
+			document.getElementById(id).classList.add('BgOptioSelected');
+	}
+
+	
+	function cardnoinput(){
+		cnoval=document.getElementById('cardno').value;
+		const usingArrayFrom = Array.from(cnoval);
+		document.getElementById('cardnumber').innerHTML="";
+		for(var cn=0;cn<usingArrayFrom.length;cn++){
+			if(cn==3 || cn==7 || cn==11){
+				document.getElementById('cardnumber').innerHTML += usingArrayFrom[cn]+" ";	
+			}else{
+				document.getElementById('cardnumber').innerHTML += usingArrayFrom[cn];	
+			}
+		
+		}
+		// if(usingArrayFrom.length==4 || usingArrayFrom.length==8){
+
+		// console.log(usingArrayFrom);
+		// }
+		//document.getElementById('cardnumber').innerHTML=cnoval;	
+		
+	}
+
+	function fnameinput(){
+		document.getElementById('firstname').innerHTML=document.getElementById('fname').value;
+	}
+
+	function lnameinput(){
+		document.getElementById('lastname').innerHTML=document.getElementById('lname').value;
+
+	}
+
+	function changetxtcolor(value){
+		document.getElementById("customtxt").setAttribute("class",value);
+		
+	}
+
+	function blurbg(){
+		document.getElementById("cardBgImg").classList.toggle('blurbg');
+		document.getElementById("cardFgImg").classList.toggle('blurfg');
+	}
+
+	function blurfg(){
+		
+		
+	}
+
+	function showcvv(){
+		document.getElementById("turncard").classList.toggle('CD-card-turn');
+		
+	}
+	function hidecvv(){
+		document.getElementById("turncard").classList.toggle('CD-card-turn');
+		
+
+	}
+
+	function CVV_input(){
+		document.getElementById('cvv').innerHTML=document.getElementById('cvvinput').value;
+	}
+
+	var isSubType=0;
+	function chagesubtype(src){
+
+		if(src!="Choose..."){
+			document.getElementById('cardtypeImg').style.display="block";
+			document.getElementById('cardtypeImg').setAttribute('src',src);
+			diableInput(false,1);
+			isSubType=1;
+		}else{
+			document.getElementById('cardtypeImg').style.display="none";
+			diableInput(true,1);
+			isSubType=0;
+		}
+	}
+
+	function setExpiryDate(value){
+		value=value.slice(2);
+		value=value.replace('-','/');
+		document.getElementById('expDt').innerHTML=value;
+	}
+</script>
+</body>
+</html>
