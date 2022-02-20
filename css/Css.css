@@ -412,26 +412,37 @@ box-shadow:  3px 3px 10px rgb(0 0 0 / 70%), -3px -3px 10px rgb(0 0 0 / 30%);
 	
 }
 
-.footercontact a:hover{
-		box-shadow: 0px 0px 10px 10px #824027;
+.footercontact .rot:hover{
+		/*box-shadow: 0px 0px 10px 10px #824027;*/
+	/*	border: 1px solid red;
     border-radius: 100px;
     padding: 0;
-    background: #824027
+    background: #824027;*/
+
 }
+
+.fa-3x {
+	font-size: 2rem !important;
+}
+
+.iconContainer{
+		cursor:pointer;
+		border-radius: 100px;
+    padding: 8px;
+    display: inline-flex;
+    border: 1px solid #142033;
+    box-shadow: inset 5px 5px 20px rgb(0 0 0 / 20%), inset -5px -5px 20px rgb(225 225 225 / 10%), 5px 5px 20px rgb(0 0 0 / 30%), -5px -5px 20px rgb(225 225 225 / 5%);
+}
+
+
 
 .rot
 {
-	transition: transform 0.5s;
-	width: 47px;
+	
+	width: 2rem;
 }
 
-.rot:hover
-{
-	transform: rotate(360deg);
-	cursor:pointer;
-	color:#f4623a !important;
-	
-}
+
 
 .myPic{
 	width: 100% !important;
