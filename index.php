@@ -153,7 +153,7 @@
         <div class="services bg-dark">
         <section class="page-section" id="services">
             <div class="container">
-                <div data-tilt data-tilt-full-page-listening><h2 class="text-center mt-0 " data-aos="fade-up">At Your Service</h2></div>
+                <div data-tilt data-tilt-full-page-listening><h2 class="text-center mt-0 " data-aos="fade-up">My Service</h2></div>
                 <hr class="divider dark my-4" />
                 <div class="row m-0">
                     <div class="col-lg-4 col-md-4 col-sm-12 text-center my-3">
@@ -186,10 +186,11 @@
 						<div class="socialpresence">
                         <div class="zoom py-5 h-100">
 							<i class="fa fa-4x fa-youtube-play text-primary mb-4"></i>
-							<h4 id="PP">Project details</h4>
+							<h4 id="PP">Youtube Channel</h4>
 							
-								<a class="linkcontnent" data-aos="fade-right" data-aso-delay="1000" href="https://youtu.be/tbxf5jxL-WA" target="_blank">Chatbot</a><br>
-								<a class="linkcontent" href="https://youtu.be/JXMVUHjqYXA" data-aos="fade-right" data-aso-delay="1000" target="_blank">Notifier</a><br>
+								<a class="linkcontnent" data-aos="fade-right" data-aso-delay="1000" href="https://www.youtube.com/channel/UCSTjAN9R_E1FW8PFSC9mu5g" target="_blank">Harsh Ka Code</a>
+								<!-- <br>
+								<a class="linkcontent" href="https://youtu.be/JXMVUHjqYXA" data-aos="fade-right" data-aso-delay="1000" target="_blank">Notifier</a><br> -->
 														
 							</div>
 							</div>
@@ -258,7 +259,7 @@
                 <hr class="divider dark my-4" />
                 <div class="row m-0 px-5 pb-4">
                     <div class="col-lg-4 col-md-4 col-sm-6 mt-5 ">
-                        <a   class="internship-box mx-auto" href="http://biozap.org/"
+                        <a  target="_blank"  class="internship-box mx-auto" href="http://biozap.org/"
                             ><img class="img-fluid" src="image/projectimages/biozap.png" alt="" />
                             <div class="internship-box-caption">
                                 <div class="project-category text-white-50">Bio Fertilizer</div>
@@ -267,7 +268,7 @@
                         >
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 mt-5 ">
-                        <a class="internship-box mx-auto" href="https://capslearning.org/"
+                        <a target="_blank" class="internship-box mx-auto" href="https://capslearning.org/"
                             ><img class="img-fluid" src="image/projectimages/caps.png" alt="" />
                             <div class="internship-box-caption">
                                 <div class="project-category text-white-50">CA Coaching</div>
@@ -276,7 +277,7 @@
                         >
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 mt-5 ">
-                        <a  class="internship-box mx-auto" href="https://synapsemindcare.com/"
+                        <a target="_blank"  class="internship-box mx-auto" href="https://synapsemindcare.com/"
                             ><img class="img-fluid" src="image/projectimages/synapse.png" alt="" />
                             <div class="internship-box-caption">
                                 <div class="project-category text-white-50">Mind Care Doctor</div>
@@ -284,10 +285,10 @@
                             </div></a
                         >
                     </div>
-                    <div class="col-lg-2 col-md-2 col-sm-6 emptycontainer"></div>
+                    <!-- <div class="col-lg-2 col-md-2 col-sm-6 emptycontainer"></div> -->
 
                      <div class="col-lg-4 col-md-4 col-sm-6 mt-5 ">
-                        <a class="internship-box mx-auto" href="https://www.youtube.com/watch?v=JXMVUHjqYXA"
+                        <a target="_blank" class="internship-box mx-auto" href="https://www.youtube.com/watch?v=JXMVUHjqYXA"
                             ><img class="img-fluid" src="image/projectimages/notifier.png" alt="" />
                             <div class="internship-box-caption p-3">
                                 <div class="project-category text-white-50">Web App</div>
@@ -297,7 +298,7 @@
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-sm-6 mt-5 ">
-                        <a class="internship-box mx-auto" href="https://seacamel.herokuapp.com/"
+                        <a target="_blank" class="internship-box mx-auto" href="https://seacamel.herokuapp.com/"
                             ><img class="img-fluid" src="image/projectimages/seacamel.png" alt="" />
                             <div class="internship-box-caption p-3">
                                 <div class="project-category text-white-50">Website</div>
@@ -306,10 +307,20 @@
                         >
                     </div>
 
-                    <div class="col-lg-2 col-md-2 col-sm-6 emptycontainer"></div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 mt-5 ">
+                        <a target="_blank" class="internship-box mx-auto" href="https://harsh3877.github.io/Todo/"
+                            ><img class="img-fluid" src="image/projectimages/todo.png" alt="" />
+                            <div class="internship-box-caption p-3">
+                                <div class="project-category text-white-50">Web App</div>
+                                <div class="project-name">Todo List</div>
+                            </div></a
+                        >
+                    </div>
+
+                   <!--  <div class="col-lg-2 col-md-2 col-sm-6 emptycontainer"></div> -->
                    
                     <div class="col-lg-4 col-md-4 col-sm-6 mt-5 ">
-                        <a  class="internship-box mx-auto" href="https://krishnamcomputers.com/"
+                        <a target="_blank"  class="internship-box mx-auto" href="https://krishnamcomputers.com/"
                             ><img class="img-fluid" src="image/projectimages/krishnum.png" alt="" />
                             <div class="internship-box-caption">
                                 <div class="project-category text-white-50">Rental Computers</div>
@@ -318,7 +329,7 @@
                         >
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 mt-5 ">
-                        <a class="internship-box mx-auto" href="https://dgsharma.com/"
+                        <a target="_blank" class="internship-box mx-auto" href="https://dgsharma.com/"
                             ><img class="img-fluid" src="image/projectimages/dgsharma.png" alt="" />
                             <div class="internship-box-caption p-3">
                                 <div class="project-category text-white-50">CA Classes</div>
@@ -327,7 +338,7 @@
                         >
                     </div>
                      <div class="col-lg-4 col-md-4 col-sm-6 mt-5 ">
-                        <a class="internship-box  mx-auto" href="https://harsh-sharma.herokuapp.com/Mychatbot.html"
+                        <a target="_blank" class="internship-box  mx-auto" href="https://harsh-sharma.herokuapp.com/Mychatbot.html"
                             ><img class="img-fluid" src="image/projectimages/chatbot.png" alt="" />
                             <div class="internship-box-caption p-3">
                                 <div class="project-category text-white-50">Simple</div>
