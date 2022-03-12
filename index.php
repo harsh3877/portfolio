@@ -15,7 +15,7 @@
 		<meta property="og:site_name" content="Harsh Sharma" />
 		
   <style type="text/css">
-   @import url('https://fonts.googleapis.com/css?family=Faustina:400,400i,500,500i|Roboto+Mono|Open+Sans:400,600');
+  /* @import url('https://fonts.googleapis.com/css?family=Faustina:400,400i,500,500i|Roboto+Mono|Open+Sans:400,600');*/
             @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css');
    
   </style>
@@ -71,24 +71,19 @@
 							<div id="myCarousel" class="carousel slide" data-ride="carousel">
 								<div class="carousel-inner  mx-auto w-75 ">
 									<div class="carousel-item   h-25">
-									   <h2 class="text-center text-light"><sup><span class="fa fa-quote-left" aria-hidden="true" style="font-size:15px;"></span></sup>&ensp;
-									   Good programmers write code for humans first and computers next.&ensp;<sup><span style="font-size:15px;" class="fa fa-quote-right" aria-hidden="true">
+									   <h2 class="text-center text-light"><sup><span class="fa fa-quote-left" aria-hidden="true" style="font-size:15px;"></span></sup> Good programmers write code for humans first and computers next <sup><span style="font-size:15px;" class="fa fa-quote-right" aria-hidden="true">
 									  </span></sup></h2><h5 class="float-right" style="color:#f4623a;">– Anonymous</h5>
 									</div>
 									<div class="carousel-item active h-25">
-									  <h2 class="text-center text-light" ><sup><span class="fa fa-quote-left" aria-hidden="true" style="font-size:15px;"></span></sup> 
-									  &ensp; Websites promote you 24/7: No employee will do that.  &ensp;<sup><span class="fa fa-quote-right" aria-hidden="true" style="font-size:15px;">
+									  <h2 class="text-center text-light" ><sup><span class="fa fa-quote-left" aria-hidden="true" style="font-size:15px;"></span></sup> Websites promote you 24/7: No employee will do that <sup><span class="fa fa-quote-right" aria-hidden="true" style="font-size:15px;">
 									  </span></sup> </h2><h5 class="float-right" style="color:#f4623a;">― Paul Cookson</h5>
 									</div>
 									<div class="carousel-item h-25" >
-									   <h2 class="text-light"><sup><span class="fa fa-quote-left" aria-hidden="true" style="font-size:15px;"></span></sup>&ensp; 
-									   websites should look good from the inside and out &ensp;
-									   <sup><span style="font-size:15px;" class="fa fa-quote-right" aria-hidden="true">
+									   <h2 class="text-light"><sup><span class="fa fa-quote-left" aria-hidden="true" style="font-size:15px;"></span></sup> Websites should look good from the inside and out <sup><span style="font-size:15px;" class="fa fa-quote-right" aria-hidden="true">
 									  </span></sup></h2><h5 class="float-right" style="color:#f4623a;">― Paul Cookson</h5>
 									</div>
 									<div class="carousel-item h-25">
-									   <h2 class="text-center text-light"><sup><span class="fa fa-quote-left" aria-hidden="true" style="font-size:15px;"></span></sup>&ensp;
-									   Software testers succeed where others fail.&ensp;<sup><span style="font-size:15px;" class="fa fa-quote-right" aria-hidden="true">
+									   <h2 class="text-center text-light"><sup><span class="fa fa-quote-left" aria-hidden="true" style="font-size:15px;"></span></sup> Software testers succeed where others fail<sup><span style="font-size:15px;" class="fa fa-quote-right" aria-hidden="true">
 									  </span></sup></h2><h5 class="float-right" style="color:#f4623a;">– Anonymous</h5>
 									</div>
 								</div>
@@ -106,8 +101,9 @@
 							
 			<!--Quotes ended-->
                     </div>
-                    <div class="col-lg-8 align-self-baseline">
-                        <a data-aos="fade-up" " href="resume/harshsharma's_resume.pdf" target="_blank" class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Get Resume</a>
+                    <div class="col-lg-8 align-self-baseline cta" >
+                       <a data-aos="fade-up" onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=harshsharma3877@gmail.com','newwindow','width=800,height=450');return false;" class="btn btn-primary btn-xl js-scroll-trigger" style="color: #fff;border: 1px solid #fff;background: none !important;">Hire me</a>
+                       <a data-aos="fade-up"  href="resume/harshsharma's_resume.pdf" target="_blank" class="btn btn-primary btn-xl js-scroll-trigger">Get Resume</a>
                     </div>
 					
                 </div>
@@ -118,7 +114,7 @@
 
 <div class="container-fluid p-0">
 	<div class="row m-0">
-		<div class="col-md-2 col-lg-2 p-0 paintDrop">
+		<div class="col-md-2 col-lg-2 p-0 ">
 			<?php include 'menu.php'; ?>
 
 		</div>
@@ -411,41 +407,42 @@
                 </div>
                 <div class="row">
                     <div data-aos="fade-right" data-aos-delay="100" class="col-4 col-md-2 col-lg-2 ml-auto text-center mb-5 mb-lg-0">
-
-                        <a data-toggle="tooltip" data-placement="top" title="Phone" href="tel:9665654326"  class="rot fa fa-phone-square fa-3x mb-3 text-muted"></a>
-                        
+                    	<div class='iconContainer'>
+                        <a data-toggle="tooltip" data-placement="top" title="Phone" href="tel:9665654326"  class="rot fa fa-phone-square fa-3x  text-muted"></a>
+                        </div>
                     </div>
 					
                     <div data-aos="fade-right" data-aos-delay="200" class="col-4 col-md-2 col-lg-2 mr-auto text-center">
-                        <a data-toggle="tooltip" data-placement="top" title="Gmail"  href="" onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=harshsharma3877@gmail.com','newwindow','width=800,height=450');return false;" class="rot fa fa-envelope fa-3x mb-3 text-muted" ></a>
-                        
+                    	<div class='iconContainer'>
+                        <a data-toggle="tooltip" data-placement="top" title="Gmail"  href="" onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=harshsharma3877@gmail.com','newwindow','width=800,height=450');return false;" class="rot fa fa-envelope fa-3x  text-muted" ></a>
+                        </div>
                     </div>
 					<!--  <div  data-aos="fade-right" data-aos-delay="300"  class="col-4 col-md-2 col-lg-2 ml-auto text-center mb-5 mb-lg-0">
-
-                        <a data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank" href="https://www.facebook.com/harsh.sharma.3877" class="rot fa fa-facebook-square fa-3x mb-3 text-muted"></a>
-                       
+						<div class='iconContainer'>
+                        <a data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank" href="https://www.facebook.com/harsh.sharma.3877" class="rot fa fa-facebook-square fa-3x  text-muted"></a>
+                       </div>
                     </div> -->
 					
 					 <div data-aos="fade-right" data-aos-delay="400" class="col-4 col-md-2 col-lg-2 ml-auto text-center mb-5 mb-lg-0">
-
-                        <a data-toggle="tooltip" data-placement="top" title="Whatsapp"  onclick="window.open('https://wa.me/+919665654326?text=Hi!, I am sending this message from your portfolio.','newwindow','width=800,height=450');return false;" class="rot fa fa-whatsapp fa-3x mb-3 text-muted"></a>
-                       
+					 	<div class='iconContainer'>
+                        <a data-toggle="tooltip" data-placement="top" title="Whatsapp"  onclick="window.open('https://wa.me/+919665654326?text=Hi!, I am sending this message from your portfolio.','newwindow','width=800,height=450');return false;" class="rot fa fa-whatsapp fa-3x  text-muted"></a>
+                       </div>
                     </div>
 					
 					 <div data-aos="fade-right" data-aos-delay="500" class="col-4 col-md-2 col-lg-2 ml-auto text-center mb-5 mb-lg-0">
-
-                        <a data-toggle="tooltip" data-placement="top" title="LinkedIn" href="https://www.linkedin.com/in/harsh-sharma-b3a465172/" target="_blank" class="rot fa fa-linkedin-square fa-3x mb-3 text-muted"></a>
-                      
+						<div class='iconContainer'>
+                        <a data-toggle="tooltip" data-placement="top" title="LinkedIn" href="https://www.linkedin.com/in/harsh-sharma-b3a465172/" target="_blank" class="rot fa fa-linkedin-square fa-3x  text-muted"></a>
+                      	</div>
                     </div>
 					<div data-aos="fade-right" data-aos-delay="600" class="col-4 col-md-2 col-lg-2 ml-auto text-center mb-5 mb-lg-0">
-
-                        <a data-toggle="tooltip" data-placement="top" title="Instagram" href="https://www.instagram.com/mr.harsh_sharma_11/" target="_blank"  class="rot fa fa-instagram fa-3x mb-3 text-muted"></a>
-                      
+						<div class='iconContainer'>
+                        <a data-toggle="tooltip" data-placement="top" title="Instagram" href="https://www.instagram.com/mr.harsh_sharma_11/" target="_blank"  class="rot fa fa-instagram fa-3x  text-muted"></a>
+                      	</div>
                     </div>
                     <div data-aos="fade-right" data-aos-delay="700" class="col-4 col-md-2 col-lg-2 ml-auto text-center mb-5 mb-lg-0">
-
-                        <a data-toggle="tooltip" data-placement="top" title="Youtube" href="https://www.youtube.com/channel/UCSTjAN9R_E1FW8PFSC9mu5g" target="_blank"  class="rot fa fa-youtube-play fa-3x mb-3 text-muted"></a>
-                      
+                    	<div class='iconContainer'>
+                        <a data-toggle="tooltip" data-placement="top" title="Youtube" href="https://www.youtube.com/channel/UCSTjAN9R_E1FW8PFSC9mu5g" target="_blank"  class="rot fa fa-youtube-play fa-3x  text-muted"></a>
+                      	</div>
                     </div>
                 </div>
             </div>

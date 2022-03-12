@@ -31,14 +31,22 @@
     animation:load 1.2s ease-in-out;
     animation-direction: alternate;
     text-shadow: 0 0 1px white;
-    font-family: ui-rounded;
+    font-family: "muli";
     font-weight: bold;
     letter-spacing: 10px;
 }
 
 
 .counter{
-        position: absolute;
+  margin-top: 50px;
+}
+
+.innerLoader{
+	  display: flex;
+	  justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
 }
 /*end: code for welcome loader*/
 
@@ -265,6 +273,17 @@ box-shadow:  3px 3px 10px rgb(0 0 0 / 70%), -3px -3px 10px rgb(0 0 0 / 30%);
 	display: inline-flex;
 }
 
+.carousel-item {
+		/*background: red;*/
+		max-height: 110px;
+		height: 110px !important;
+		transition: 0.5s;
+	}
+
+	.carousel-item h2{
+		font-size: 1.5rem !important;
+	}
+
 @media only screen and (max-width: 991px) {
 	.text{
 			display: none;
@@ -336,6 +355,10 @@ box-shadow:  3px 3px 10px rgb(0 0 0 / 70%), -3px -3px 10px rgb(0 0 0 / 30%);
 		font-size: 15px !important;
 	}
 
+	.carousel-item h2{
+		font-size: 1rem !important;
+	}
+
 }
 
 @media only screen and (max-width: 575px) {
@@ -366,7 +389,23 @@ box-shadow:  3px 3px 10px rgb(0 0 0 / 70%), -3px -3px 10px rgb(0 0 0 / 30%);
 	#blinking-cursor {
 	  font-size: 2rem;
 	}
+
+	.carousel-item h2{
+		font-size: 1rem !important;
+	}
+
+	.carousel-item h5{
+		font-size: 0.75rem !important;
+	}
+
+	.carousel-item {
+
+		max-height: 80px;
+		height: 80px !important;
+	}
 }
+
+
 
 .loadercontainer{
     position: fixed;
@@ -412,26 +451,37 @@ box-shadow:  3px 3px 10px rgb(0 0 0 / 70%), -3px -3px 10px rgb(0 0 0 / 30%);
 	
 }
 
-.footercontact a:hover{
-		box-shadow: 0px 0px 10px 10px #824027;
+.footercontact .rot:hover{
+		/*box-shadow: 0px 0px 10px 10px #824027;*/
+	/*	border: 1px solid red;
     border-radius: 100px;
     padding: 0;
-    background: #824027
+    background: #824027;*/
+
 }
+
+.fa-3x {
+	font-size: 2rem !important;
+}
+
+.iconContainer{
+		cursor:pointer;
+		border-radius: 100px;
+    padding: 8px;
+    display: inline-flex;
+    border: 1px solid #142033;
+    box-shadow: inset 5px 5px 20px rgb(0 0 0 / 20%), inset -5px -5px 20px rgb(225 225 225 / 10%), 5px 5px 20px rgb(0 0 0 / 30%), -5px -5px 20px rgb(225 225 225 / 5%);
+}
+
+
 
 .rot
 {
-	transition: transform 0.5s;
-	width: 47px;
+	
+	width: 2rem;
 }
 
-.rot:hover
-{
-	transform: rotate(360deg);
-	cursor:pointer;
-	color:#f4623a !important;
-	
-}
+
 
 .myPic{
 	width: 100% !important;
@@ -498,4 +548,8 @@ a{text-decoration: none !important;}
 
 .hiddenDescription ul{
 	margin-left: -23px;
+}
+
+.cta a{
+	width: 160px;
 }
