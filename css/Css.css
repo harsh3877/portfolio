@@ -142,6 +142,8 @@ body{
 	font-size:16px;
 }
 
+
+
 .socialpresence{
 	    transition: .4s;
     border-radius: 10px;
@@ -447,7 +449,7 @@ box-shadow:  3px 3px 10px rgb(0 0 0 / 70%), -3px -3px 10px rgb(0 0 0 / 30%);
 	
 	position: absolute;
 	top: 0;
-	right: 22px;
+	left: 27px;
 	
 }
 
@@ -552,4 +554,17 @@ a{text-decoration: none !important;}
 
 .cta a{
 	width: 160px;
+}
+
+
+.bubble-1{
+	border-radius: 12% 19% 36% 53% / 15% 97% 90% 47% !important;
+}
+
+.bubble-2{
+	border-radius: 25% 14% 19% 2% / 49% 36% 20% 22% !important;
+}
+
+.bubble-3{
+	border-radius: 12% 19% 36% 53% / 15% 97% 90% 47% !important;
 }
