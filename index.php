@@ -310,7 +310,11 @@
                     <div class="col-lg-4 col-md-4 col-sm-6 mt-5 ">
                         <a target="_blank" class="internship-box mx-auto" href="https://harsh3877.github.io/Todo/"
                             ><img class="img-fluid" src="image/projectimages/todo.png" alt="" />
+<<<<<<< HEAD
                             <div class="internship-box-caption bubble-2 p-3">
+=======
+                            <div class="internship-box-caption p-3">
+>>>>>>> 0f2ed6797a9cf866a6a530243eb94b5f2efbc0f3
                                 <div class="project-category text-white-50">Web App</div>
                                 <div class="project-name">Todo List</div>
                             </div></a

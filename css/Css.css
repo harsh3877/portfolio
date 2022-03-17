@@ -554,6 +554,7 @@ a{text-decoration: none !important;}
 
 .cta a{
 	width: 160px;
+<<<<<<< HEAD
 }
 
 
@@ -567,4 +568,6 @@ a{text-decoration: none !important;}
 
 .bubble-3{
 	border-radius: 12% 19% 36% 53% / 15% 97% 90% 47% !important;
+=======
+>>>>>>> 0f2ed6797a9cf866a6a530243eb94b5f2efbc0f3
 }
