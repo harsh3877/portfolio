@@ -338,7 +338,7 @@ box-shadow:  3px 3px 10px rgb(0 0 0 / 70%), -3px -3px 10px rgb(0 0 0 / 30%);
 	}
 
 	.bookmark{
-		right: 50px !important;
+		left: 50px !important;
 	}
 
 	.internship-box
@@ -568,6 +568,5 @@ a{text-decoration: none !important;}
 
 .bubble-3{
 	border-radius: 12% 19% 36% 53% / 15% 97% 90% 47% !important;
-=======
->>>>>>> 0f2ed6797a9cf866a6a530243eb94b5f2efbc0f3
+
 }

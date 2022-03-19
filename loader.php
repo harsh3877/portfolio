@@ -3,7 +3,7 @@
 		
 			<div class="" style="">
 					<h2 id="animate">Welcome</h2>
-					<hr id="counterline">
+					<hr id="counterline" style="width: 0px;">
 			</div>
 		
 		  <div class="counter">

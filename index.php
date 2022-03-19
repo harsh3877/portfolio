@@ -268,87 +268,75 @@
                         >
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 mt-5 ">
-                        <a target="_blank" class="internship-box mx-auto" href="https://capslearning.org/"
-                            ><img class="img-fluid" src="image/projectimages/caps.png" alt="" />
+                        <a target="_blank" class="internship-box mx-auto" href="https://capslearning.org/">
+                        	<img class="img-fluid" src="image/projectimages/caps.png" alt="" />
                             <div class="internship-box-caption bubble-2">
                                 <div class="project-category text-white-50">CA Coaching</div>
                                 <div class="project-name">CAPS</div>
-                            </div></a
-                        >
+                            </div></a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 mt-5 ">
-                        <a target="_blank"  class="internship-box mx-auto" href="https://synapsemindcare.com/"
-                            ><img class="img-fluid" src="image/projectimages/synapse.png" alt="" />
+                        <a target="_blank"  class="internship-box mx-auto" href="https://synapsemindcare.com/">
+                        <img class="img-fluid" src="image/projectimages/synapse.png" alt="" />
                             <div class="internship-box-caption bubble-2">
                                 <div class="project-category text-white-50">Mind Care Doctor</div>
                                 <div class="project-name">Synapse</div>
-                            </div></a
-                        >
+                            </div></a>
                     </div>
                     <!-- <div class="col-lg-2 col-md-2 col-sm-6 emptycontainer"></div> -->
 
                      <div class="col-lg-4 col-md-4 col-sm-6 mt-5 ">
-                        <a target="_blank" class="internship-box mx-auto" href="https://www.youtube.com/watch?v=JXMVUHjqYXA"
-                            ><img class="img-fluid" src="image/projectimages/notifier.png" alt="" />
+                        <a target="_blank" class="internship-box mx-auto" href="https://www.youtube.com/watch?v=JXMVUHjqYXA">
+                        <img class="img-fluid" src="image/projectimages/notifier.png" alt="" />
                             <div class="internship-box-caption bubble-2 p-3">
                                 <div class="project-category text-white-50">Web App</div>
                                 <div class="project-name">Notifier</div>
-                            </div></a
-                        >
+                            </div></a>
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-sm-6 mt-5 ">
-                        <a target="_blank" class="internship-box mx-auto" href="https://seacamel.herokuapp.com/"
-                            ><img class="img-fluid" src="image/projectimages/seacamel.png" alt="" />
+                        <a target="_blank" class="internship-box mx-auto" href="https://seacamel.herokuapp.com/">
+                        <img class="img-fluid" src="image/projectimages/seacamel.png" alt="" />
                             <div class="internship-box-caption bubble-2 p-3">
                                 <div class="project-category text-white-50">Website</div>
                                 <div class="project-name">Seacamel</div>
-                            </div></a
-                        >
+                            </div></a>
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-sm-6 mt-5 ">
-                        <a target="_blank" class="internship-box mx-auto" href="https://harsh3877.github.io/Todo/"
-                            ><img class="img-fluid" src="image/projectimages/todo.png" alt="" />
-<<<<<<< HEAD
+                        <a target="_blank" class="internship-box mx-auto" href="https://harsh3877.github.io/Todo/">
+                        <img class="img-fluid" src="image/projectimages/todo.png" alt="" />
                             <div class="internship-box-caption bubble-2 p-3">
-=======
-                            <div class="internship-box-caption p-3">
->>>>>>> 0f2ed6797a9cf866a6a530243eb94b5f2efbc0f3
                                 <div class="project-category text-white-50">Web App</div>
                                 <div class="project-name">Todo List</div>
-                            </div></a
-                        >
+                            </div></a>
                     </div>
 
                    <!--  <div class="col-lg-2 col-md-2 col-sm-6 emptycontainer"></div> -->
                    
                     <div class="col-lg-4 col-md-4 col-sm-6 mt-5 ">
-                        <a target="_blank"  class="internship-box mx-auto" href="https://krishnamcomputers.com/"
-                            ><img class="img-fluid" src="image/projectimages/krishnum.png" alt="" />
+                        <a target="_blank"  class="internship-box mx-auto" href="https://krishnamcomputers.com/">
+                        <img class="img-fluid" src="image/projectimages/krishnum.png" alt="" />
                             <div class="internship-box-caption bubble-2">
-                                <div class="project-category text-white-50">Rental Computers</div>
+                              <div class="project-category text-white-50">Rental Computers</div>
                                 <div class="project-name">Krishnum Computers</div>
-                            </div></a
-                        >
+                            </div></a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 mt-5 ">
-                        <a target="_blank" class="internship-box mx-auto" href="https://dgsharma.com/"
-                            ><img class="img-fluid" src="image/projectimages/dgsharma.png" alt="" />
+                        <a target="_blank" class="internship-box mx-auto" href="https://dgsharma.com/">
+                        <img class="img-fluid" src="image/projectimages/dgsharma.png" alt="" />
                             <div class="internship-box-caption bubble-2 p-3">
                                 <div class="project-category text-white-50">CA Classes</div>
                                 <div class="project-name">GD Sharma</div>
-                            </div></a
-                        >
+                            </div></a>
                     </div>
                      <div class="col-lg-4 col-md-4 col-sm-6 mt-5 ">
-                        <a target="_blank" class="internship-box  mx-auto" href="https://harsh-sharma.herokuapp.com/Mychatbot.html"
-                            ><img class="img-fluid" src="image/projectimages/chatbot.png" alt="" />
+                        <a target="_blank" class="internship-box  mx-auto" href="https://harsh-sharma.herokuapp.com/Mychatbot.html">
+                        <img class="img-fluid" src="image/projectimages/chatbot.png" alt="" />
                             <div class="internship-box-caption bubble-2 p-3">
                                 <div class="project-category text-white-50">Simple</div>
                                 <div class="project-name">Chatbot</div>
-                            </div></a
-                        >
+                            </div></a>
                     </div>
                     
                     <!-- <div class="col-lg-4 col-md-4 col-sm-6 mt-5 hiddencontainer">
@@ -392,7 +380,7 @@
 	                			
 	                			<div class="hiddenDescription bg-dark bubble-3">
 	                				<div>
-		                				<h5 class="text-dark">Guess Number</h5>	
+		                				<h5 class="text-dark">Guess Me</h5>	
 			        				    <ul  type='none' class="text-left" >
 		                                    <li class="text-dark"> <span class="fa fa-angle-right text-light bulletpoint"></span> Number game </li>
 		                                    <li class="text-dark"> <span class="fa fa-angle-right text-light bulletpoint"></span> User entered number guess by system</li>
